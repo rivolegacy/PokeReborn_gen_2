@@ -1,0 +1,23 @@
+{
+    "format_version":"1.12",
+    "minecraft:recipe_shapeless":{
+        "description":{
+            "identifier":"reborn:granbull_revive"
+        },
+        "tags":[
+            "crafting_table"
+        ],
+        "ingredients":[
+            {
+                "item":"reborn:granbull_fainted"
+            },
+            {
+                "item":"reborn:max_revive"
+            }
+        ],
+        "result":{
+            "item":"reborn:granbull_ball",
+            "count":1
+        }
+    }
+}

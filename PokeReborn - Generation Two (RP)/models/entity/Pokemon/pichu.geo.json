@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pichu",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Pichu",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Pichu",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 2.5, 0], "size": [8, 7, 4], "uv": [0, 11]},
+						{"origin": [-3.5, 9.5, 0], "size": [7, 2, 4], "uv": [0, 22]},
+						{"origin": [-3.8, 1.6, 0], "size": [7.5, 2, 4], "uv": [20, 20]}
+					]
+				},
+				{
+					"name": "Left_Foot",
+					"parent": "Pichu",
+					"pivot": [-3, 1, 2],
+					"cubes": [
+						{"origin": [-4.5, 0, -2.2], "size": [3, 1.5, 5], "pivot": [-2, 0, 0], "rotation": [0, 15, 0], "uv": [32, 32]}
+					]
+				},
+				{
+					"name": "Right_Foot",
+					"parent": "Pichu",
+					"pivot": [3, 1, 2],
+					"cubes": [
+						{"origin": [1.5, 0, -2.2], "size": [3, 1.5, 5], "pivot": [2, 0, 0], "rotation": [0, -15, 0], "uv": [24, 12]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Pichu",
+					"pivot": [0, 10, 2],
+					"cubes": [
+						{"origin": [-4.8, 10, -0.6], "size": [9.6, 7.2, 4.9], "uv": [0, 0]},
+						{"origin": [-5.4, 10.36, -0.5], "size": [1.8, 6.6, 4.8], "uv": [0, 34]},
+						{"origin": [3.72, 10.36, -0.5], "size": [1.8, 6.6, 4.8], "uv": [12, 28]},
+						{"origin": [1.72, 14.36, 2.3], "size": [5.8, 12.6, 0], "pivot": [5.2, 16, 2], "rotation": [0, 0, 37.5], "uv": [26, 0]},
+						{"origin": [-7.52, 14.36, 2.3], "size": [5.8, 12.6, 0], "pivot": [-5.2, 16, 2], "rotation": [0, 0, -37.5], "uv": [22, 26]}
+					]
+				},
+				{
+					"name": "Left_Arm",
+					"parent": "Pichu",
+					"pivot": [-3, 9, 0],
+					"cubes": [
+						{"origin": [-7, 7.5, 1], "size": [5, 2, 1], "pivot": [-4, 8, 0], "rotation": [0, 0, -20], "uv": [32, 29]}
+					]
+				},
+				{
+					"name": "Right_Arm",
+					"parent": "Pichu",
+					"pivot": [3, 9, 0],
+					"cubes": [
+						{"origin": [2, 7.5, 1], "size": [5, 2, 1], "pivot": [4, 8, 0], "rotation": [0, 0, 20], "uv": [32, 26]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Pichu",
+					"pivot": [0, 4, 4],
+					"cubes": [
+						{"origin": [0, 3, 4], "size": [0, 6, 6], "uv": [0, 22]}
+					]
+				}
+			]
+		}
+	]
+}

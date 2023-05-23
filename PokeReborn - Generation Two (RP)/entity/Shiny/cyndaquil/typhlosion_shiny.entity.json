@@ -1,0 +1,31 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:typhlosion_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/typhlosion_shiny"
+         },
+         "geometry":{
+            "default":"geometry.typhlosion"
+         },
+         "animations":{
+            "chill":"animation.typhlosion.chill",
+            "walk":"animation.typhlosion.walk",
+            "sit":"animation.typhlosion.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

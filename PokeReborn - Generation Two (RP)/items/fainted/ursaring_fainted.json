@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:ursaring_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "ursaring_fainted"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:water_candy_xl",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "water_candy_xl"
+    }
+  }
+}

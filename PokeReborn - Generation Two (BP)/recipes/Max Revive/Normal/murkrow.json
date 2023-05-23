@@ -1,0 +1,23 @@
+{
+    "format_version":"1.12",
+    "minecraft:recipe_shapeless":{
+        "description":{
+            "identifier":"reborn:murkrow_revive"
+        },
+        "tags":[
+            "crafting_table"
+        ],
+        "ingredients":[
+            {
+                "item":"reborn:murkrow_fainted"
+            },
+            {
+                "item":"reborn:max_revive"
+            }
+        ],
+        "result":{
+            "item":"reborn:murkrow_ball",
+            "count":1
+        }
+    }
+}

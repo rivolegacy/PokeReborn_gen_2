@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:gligar_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/gligar_shiny"
+         },
+         "geometry":{
+            "default":"geometry.gligar"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "chill":"animation.gligar.chill",
+            "walk":"animation.gligar.walk",
+            "sit":"animation.gligar.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:torterra_trained",
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/torterra",
+         "return": "textures/entity/return"
+ 
+      },
+      "geometry": {
+        "default": "geometry.torterra"
+      },
+      "animations": {
+    "chill": "animation.torterra.chill",
+    "walk": "animation.torterra.walk",
+    "sit": "animation.torterra.sitting",
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "torterra",
+        "texture_index": 1
+      }
+    }
+  }
+}

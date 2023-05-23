@@ -1,0 +1,41 @@
+{
+   "format_version":"1.16.100",
+   "minecraft:item":{
+      "description":{
+         "identifier":"reborn:red_apricorn",
+         "category":"nature"
+      },
+      "components":{
+         "minecraft:creative_category":{
+            "parent":"itemGroup.name.seed"
+         },
+         "minecraft:display_name":{
+            "value":"Red Apricorn"
+         },
+         "minecraft:icon":{
+            "texture":"red_apricorn"
+         },
+         "minecraft:render_offsets":{
+            "main_hand":{
+               "first_person":{
+                  "scale":[
+                     0.02,
+                     0.02,
+                     0.02
+                  ]
+               },
+               "third_person":{
+                  "scale":[
+                     0.06,
+                     0.06,
+                     0.06
+                  ]
+               }
+            }
+         },
+         "minecraft:block_placer":{
+            "block":"reborn:apricorn_bush_stage_1_red"
+         }
+      }
+   }
+}

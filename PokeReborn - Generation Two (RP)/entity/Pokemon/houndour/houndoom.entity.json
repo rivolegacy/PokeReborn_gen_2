@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:houndoom",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/houndoom"
+         },
+         "geometry":{
+            "default":"geometry.houndoom"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "chill":"animation.houndoom.chill",
+            "walk":"animation.houndoom.walk",
+            "sit":"animation.houndoom.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

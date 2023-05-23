@@ -1,0 +1,33 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "reborn:healing_machine"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " W ",
+            "S#S",
+            "SSS"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:iron_ingot"
+            },
+            "#": {
+               "item": "minecraft:redstone"
+               
+            },
+           "W": {
+                "item": "minecraft:glass_pane"
+               
+            }
+        },
+        "result": {
+            "item": "reborn:healing_machine",
+            "count": 1
+        }
+    }
+}

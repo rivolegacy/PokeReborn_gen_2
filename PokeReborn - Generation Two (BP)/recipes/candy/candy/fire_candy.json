@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:fire_candy"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:small_fire_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:fire_candy",
+         "count":1
+      }
+   }
+}

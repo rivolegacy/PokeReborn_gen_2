@@ -1,0 +1,31 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:girafarig_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/girafarig_shiny"
+         },
+         "geometry":{
+            "default":"geometry.girafarig"
+         },
+         "animations":{
+            "chill":"animation.girafarig.chill",
+            "walk":"animation.girafarig.walk",
+            "sit":"animation.girafarig.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

@@ -1,0 +1,14 @@
+{
+    "pools":[
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"item",
+                    "name":"reborn:white_apricorn",
+                    "weight":1
+                }
+            ]
+        }
+    ]
+}

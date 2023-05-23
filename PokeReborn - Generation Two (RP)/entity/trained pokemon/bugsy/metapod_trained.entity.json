@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:metapod_trained",
+      
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/metapod",
+        "return": "textures/entity/return"
+        
+ 
+      },
+      "geometry": {
+        "default": "geometry.metapod"
+      },
+      "animations": {
+
+    "chill": "animation.metapod.chill",
+    "walk": "animation.metapod.walk",
+    "sit": "animation.metapod.sitting",
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "metapod",
+        "texture_index": 1
+      }
+    }
+  }
+}

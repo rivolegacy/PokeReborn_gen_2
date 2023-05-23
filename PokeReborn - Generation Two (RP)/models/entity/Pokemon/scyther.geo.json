@@ -1,0 +1,110 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.scyther",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Scyther",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Leg",
+					"parent": "Scyther",
+					"pivot": [-4, 14, 0],
+					"cubes": [
+						{"origin": [-9.1, 0, -3], "size": [4.1, 2, 5], "uv": [54, 38]},
+						{"origin": [-7, 12.26374, -1.5], "size": [3, 3.8, 3], "pivot": [-5.5, 12, 0], "rotation": [0, 0, 12.5], "uv": [48, 60]},
+						{"origin": [-9.14652, 12.27136, -2.5], "size": [5, 3.8, 1], "pivot": [-5.5, 14, 0], "rotation": [0, 0, 42.5], "uv": [60, 60]},
+						{"origin": [-7.47706, 4.42284, -1], "size": [2, 9.8, 2], "pivot": [-7.5, 8, 0], "rotation": [0, 0, 12.5], "uv": [24, 60]},
+						{"origin": [-9, 0.4, -2], "size": [4, 7.8, 4], "pivot": [-7.5, 2, 0], "rotation": [0, 0, 5], "uv": [32, 56]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Scyther",
+					"pivot": [2, 14, 0],
+					"cubes": [
+						{"origin": [3, 0, -3], "size": [4.1, 2, 5], "uv": [54, 8]},
+						{"origin": [2, 12.26374, -1.5], "size": [3, 3.8, 3], "pivot": [3.5, 12, 0], "rotation": [0, 0, -12.5], "uv": [58, 45]},
+						{"origin": [2.14652, 12.27136, -2.5], "size": [5, 3.8, 1], "pivot": [3.5, 14, 0], "rotation": [0, 0, -42.5], "uv": [36, 52]},
+						{"origin": [3.47706, 4.42284, -1], "size": [2, 9.8, 2], "pivot": [5.5, 8, 0], "rotation": [0, 0, -12.5], "uv": [16, 60]},
+						{"origin": [3, 0.4, -2], "size": [4, 7.8, 4], "pivot": [5.5, 2, 0], "rotation": [0, 0, -5], "uv": [0, 54]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Scyther",
+					"pivot": [-1, 26, 2],
+					"cubes": [
+						{"origin": [-3, 8, -3], "size": [4, 2, 6], "uv": [52, 28]},
+						{"origin": [-3, 18, -3], "size": [4, 2, 6], "uv": [52, 0]},
+						{"origin": [-3, 22, -3], "size": [4, 8, 6], "uv": [34, 38]},
+						{"origin": [-5, 22, -3], "size": [2, 8, 6], "pivot": [-4, 26, 2], "rotation": [0, -20, 0], "uv": [48, 46]},
+						{"origin": [1, 22, -3.6], "size": [2, 8, 6], "pivot": [4, 26, 2], "rotation": [0, 20, 0], "uv": [20, 46]},
+						{"origin": [-2, 20, -1], "size": [2, 2, 2], "uv": [0, 48]},
+						{"origin": [-2, 30, -1], "size": [2, 2, 2], "uv": [0, 44]},
+						{"origin": [-4, 10, -3], "size": [6, 8, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Arm",
+					"parent": "Scyther",
+					"pivot": [-4, 28, 0],
+					"cubes": [
+						{"origin": [-7.6, 26, -2], "size": [3.6, 3.6, 3.6], "pivot": [-6, 28, 0], "rotation": [0, 0, -12.5], "uv": [12, 44]},
+						{"origin": [-12.9, 26.56712, -1], "size": [5.8, 1.6, 1.6], "pivot": [-8, 28, 0], "rotation": [0, 0, -72.5], "uv": [21, 44]},
+						{"origin": [-14.8, 26.3, -1.2], "size": [2, 2, 2], "pivot": [-8, 28, 0], "rotation": [0, 0, -72.5], "uv": [40, 32]},
+						{"origin": [-24.47628, 18.1968, 0], "size": [14, 8, 0], "pivot": [-10, 22, 0], "rotation": [35, 0, -72.5], "uv": [40, 20]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Scyther",
+					"pivot": [2, 28, 0],
+					"cubes": [
+						{"origin": [2, 26, -2], "size": [3.6, 3.6, 3.6], "pivot": [4, 28, 0], "rotation": [0, 0, 12.5], "uv": [36, 8]},
+						{"origin": [5.1, 26.56712, -1], "size": [5.8, 1.6, 1.6], "pivot": [6, 28, 0], "rotation": [0, 0, 72.5], "uv": [42, 18]},
+						{"origin": [10.8, 26.3, -1.2], "size": [2, 2, 2], "pivot": [6, 28, 0], "rotation": [0, 0, 72.5], "uv": [40, 28]},
+						{"origin": [8.47628, 18.1968, 0], "size": [14, 8, 0], "pivot": [8, 22, 0], "rotation": [35, 0, 72.5], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "Wing",
+					"parent": "Scyther",
+					"pivot": [2, 28, 2],
+					"cubes": [
+						{"origin": [1, 18, 1], "size": [0, 12, 20], "pivot": [0, 24, 2], "rotation": [20, 25, 0], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "Wing2",
+					"parent": "Scyther",
+					"pivot": [-4, 28, 0],
+					"cubes": [
+						{"origin": [-3, 18, 2], "size": [0, 12, 20], "pivot": [0, 24, 2], "rotation": [20, -25, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Scyther",
+					"pivot": [-1, 32, 0],
+					"cubes": [
+						{"origin": [-3, 31, -6], "size": [4, 4, 2], "uv": [0, 14]},
+						{"origin": [-4, 31, -4], "size": [6, 6, 6], "uv": [18, 8]},
+						{"origin": [-4, 35, -4], "size": [2, 2, 8], "pivot": [-2, 38, -2], "rotation": [30, -15, 0], "uv": [0, 44]},
+						{"origin": [-2, 35, -4], "size": [2, 2, 8], "pivot": [0, 38, -2], "rotation": [47.5, 0, 0], "uv": [42, 8]},
+						{"origin": [0, 35, -4], "size": [2, 2, 8], "pivot": [0, 38, -2], "rotation": [30, 15, 0], "uv": [40, 28]}
+					]
+				}
+			]
+		}
+	]
+}

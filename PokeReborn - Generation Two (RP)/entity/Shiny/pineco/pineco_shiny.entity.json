@@ -1,0 +1,31 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:pineco_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/pineco_shiny"
+         },
+         "geometry":{
+            "default":"geometry.pineco"
+         },
+         "animations":{
+            "chill":"animation.pineco.chill",
+            "walk":"animation.pineco.walk",
+            "sit":"animation.pineco.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

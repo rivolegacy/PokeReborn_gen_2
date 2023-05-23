@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:arcanine_trained",
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/arcanine",
+         "return": "textures/entity/return"
+ 
+      },
+      "geometry": {
+        "default": "geometry.arcanine"
+      },
+      "animations": {
+    "chill": "animation.arcanine.chill",
+    "walk": "animation.arcanine.walk",
+    "sit": "animation.arcanine.sitting",
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "arcanine",
+        "texture_index": 1
+      }
+    }
+  }
+}

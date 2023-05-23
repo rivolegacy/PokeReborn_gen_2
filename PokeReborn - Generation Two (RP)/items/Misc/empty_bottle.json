@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:empty_bottle",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "empty_bottle"
+    }
+  }
+}

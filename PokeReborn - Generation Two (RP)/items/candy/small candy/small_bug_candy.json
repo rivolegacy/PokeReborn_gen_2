@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:small_bug_candy",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "small_bug_candy"
+    }
+  }
+}

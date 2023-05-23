@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:arbok_trained",
+      
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/arbok",
+        "return": "textures/entity/return"
+        
+ 
+      },
+      "geometry": {
+        "default": "geometry.arbok"
+      },
+      "animations": {
+
+    "chill": "animation.arbok.chill",
+    "walk": "animation.arbok.walk",
+    "sit": "animation.arbok.sitting",
+
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "arbok",
+        "texture_index": 1
+      }
+    }
+  }
+}

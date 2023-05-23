@@ -1,0 +1,24 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.xd001":{
+         "arrays":{
+            "textures":{
+               "Array.variants":[
+                  "Texture.default",
+                  "Texture.xd001"
+               ]
+            }
+         },
+         "geometry":"Geometry.default",
+         "materials":[
+            {
+               "*":"Material.default"
+            }
+         ],
+         "textures":[
+            "Array.variants[query.variant]"
+         ]
+      }
+   }
+}

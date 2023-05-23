@@ -1,0 +1,23 @@
+{
+    "format_version":"1.12",
+    "minecraft:recipe_shapeless":{
+        "description":{
+            "identifier":"reborn:wooper_revive"
+        },
+        "tags":[
+            "crafting_table"
+        ],
+        "ingredients":[
+            {
+                "item":"reborn:wooper_fainted"
+            },
+            {
+                "item":"reborn:max_revive"
+            }
+        ],
+        "result":{
+            "item":"reborn:wooper_ball",
+            "count":1
+        }
+    }
+}

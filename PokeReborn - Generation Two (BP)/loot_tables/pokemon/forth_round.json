@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "reborn:forth_round_token",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

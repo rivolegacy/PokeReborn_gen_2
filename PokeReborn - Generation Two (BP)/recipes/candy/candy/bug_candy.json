@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:bug_candy"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:small_bug_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:bug_candy",
+         "count":1
+      }
+   }
+}

@@ -1,0 +1,99 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lapras",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Lapras",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Lapras",
+					"pivot": [0, 4, 2],
+					"cubes": [
+						{"origin": [-4, 0, -6], "size": [8, 5, 7], "uv": [0, 11]},
+						{"origin": [-4.5, 3, -3], "size": [9, 3, 8], "uv": [0, 0]},
+						{"origin": [-3.5, 6, -2], "size": [7, 1, 6], "uv": [23, 11]},
+						{"origin": [-0.5, 7, -2], "size": [1, 2, 1], "uv": [9, 32]},
+						{"origin": [0.5, 7, 3], "size": [1, 1, 1], "uv": [37, 9]},
+						{"origin": [-1.5, 7, 3], "size": [1, 1, 1], "uv": [12, 34]},
+						{"origin": [-3.5, 6, -2], "size": [1, 2, 1], "pivot": [-3, 7, -1], "rotation": [0, 0, -20], "uv": [30, 18]},
+						{"origin": [-3.5, 6, 2], "size": [1, 2, 1], "pivot": [-3, 7, -1], "rotation": [0, 0, -20], "uv": [26, 0]},
+						{"origin": [2.5, 6, -2], "size": [1, 2, 1], "pivot": [3, 7, -1], "rotation": [0, 0, 20], "uv": [23, 13]},
+						{"origin": [2.5, 6, 2], "size": [1, 2, 1], "pivot": [3, 7, -1], "rotation": [0, 0, 20], "uv": [0, 23]},
+						{"origin": [-1.75, 2, -7], "size": [3.5, 10, 3], "pivot": [0, 8, -7], "rotation": [10, 0, 0], "uv": [0, 32]},
+						{"origin": [-3.5, 0, 1], "size": [7, 4, 5], "uv": [0, 23]},
+						{"origin": [-1.5, 1, 6], "size": [3, 2, 2], "uv": [19, 23]},
+						{"origin": [-0.5, 1, 8], "size": [1, 1, 1], "uv": [34, 8]}
+					]
+				},
+				{
+					"name": "Leg",
+					"parent": "Lapras",
+					"pivot": [3, 2, -4],
+					"rotation": [0, -15, 15],
+					"cubes": [
+						{"origin": [3, 1, -6], "size": [4, 2, 4], "uv": [28, 32]},
+						{"origin": [6, 1.5, -5.5], "size": [3, 1, 3], "uv": [24, 38]},
+						{"origin": [8, 1.5, -4.5], "size": [2, 1, 1], "uv": [23, 11]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Lapras",
+					"pivot": [-3, 2, -4],
+					"rotation": [0, 15, -15],
+					"cubes": [
+						{"origin": [-7, 1, -6], "size": [4, 2, 4], "uv": [12, 32]},
+						{"origin": [-9, 1.5, -5.5], "size": [3, 1, 3], "uv": [12, 38]},
+						{"origin": [-10, 1.5, -4.5], "size": [2, 1, 1], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "Leg3",
+					"parent": "Lapras",
+					"pivot": [-3, 0, 4],
+					"rotation": [0, 10, 0],
+					"cubes": [
+						{"origin": [-6, 0, 3], "size": [3, 2, 3], "uv": [37, 23]},
+						{"origin": [-8, 0.5, 3.5], "size": [2, 1, 2], "uv": [24, 32]},
+						{"origin": [-9, 0.5, 4], "size": [1, 1, 1], "uv": [26, 3]}
+					]
+				},
+				{
+					"name": "Leg4",
+					"parent": "Lapras",
+					"pivot": [3, 0, 4],
+					"rotation": [0, -10, 0],
+					"cubes": [
+						{"origin": [3, 0, 3], "size": [3, 2, 3], "uv": [37, 0]},
+						{"origin": [6, 0.5, 3.5], "size": [2, 1, 2], "uv": [0, 5]},
+						{"origin": [8, 0.5, 4], "size": [1, 1, 1], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Lapras",
+					"pivot": [0, 12, -6],
+					"cubes": [
+						{"origin": [-1.5, 12, -10.5], "size": [3, 3, 5], "uv": [26, 0]},
+						{"origin": [-2, 12, -9.5], "size": [4, 4, 5], "uv": [24, 23]},
+						{"origin": [-2, 16, -8.5], "size": [4, 1, 4], "uv": [30, 18]},
+						{"origin": [-0.5, 15.5, -8.5], "size": [1, 3, 1], "pivot": [0, 17, -8], "rotation": [30, 0, 0], "uv": [0, 11]},
+						{"origin": [0, 14.5, -6.5], "size": [3, 4, 1], "pivot": [1, 16, -5], "rotation": [0, -50, 0], "uv": [36, 38]},
+						{"origin": [-3, 14.5, -6.5], "size": [3, 4, 1], "pivot": [-1, 16, -5], "rotation": [0, 50, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

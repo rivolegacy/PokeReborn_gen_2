@@ -1,0 +1,287 @@
+{
+   "format_version":"1.17",
+   "minecraft:npc_dialogue":{
+      "scenes":[
+         {
+            "scene_tag":"elm_system_intro",
+            "npc_name":"§9Professor Elm",
+            "text":"Hello there! Welcome to the world of Pokémon. I am §9Professor Elm§0, but people call me the Pokémon Breeder. I can see you do not have a Pokémon companion or a Team! Lets fix that! First choose a Team that you would like to be part of?",
+            "buttons":[
+               {
+                  "name":"§9Mystic!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_mystic_information"
+                  ]
+               },
+               {
+                  "name":"§eInstinct!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_instinct_information"
+                  ]
+               },
+               {
+                  "name":"§cValor!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_valor_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_mystic_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen the the blue team §9MYSTIC§0! Who are powered by their mascot §9Articuno§0. That is a great choice! Now choose your Pokémon companion to help you on your adventure",
+            "buttons":[
+               {
+                  "name":"§achikorita!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_chikorita_mystic_information"
+                  ]
+               },
+               {
+                  "name":"§ccyndaquil!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_cyndaquil_mystic_information"
+                  ]
+               },
+               {
+                  "name":"§9totodile!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_totodile_mystic_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_instinct_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen the the yellow team §eINSTINCT§0! Who are powered by their mascot §eZapdos§0. That is a great choice! Now choose your Pokémon companion to help you on your adventure",
+            "buttons":[
+               {
+                  "name":"§achikorita!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_chikorita_instinct_information"
+                  ]
+               },
+               {
+                  "name":"§ccyndaquil!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_cyndaquil_instinct_information"
+                  ]
+               },
+               {
+                  "name":"§9totodile!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_totodile_instinct_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_valor_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen the the red team §cVALOR§0! Who are powered by their mascot §cMoltres§0. That is a great choice! Now choose your Pokémon companion to help you on your adventure",
+            "buttons":[
+               {
+                  "name":"§achikorita!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_chikorita_valor_information"
+                  ]
+               },
+               {
+                  "name":"§ccyndaquil!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_cyndaquil_valor_information"
+                  ]
+               },
+               {
+                  "name":"§9totodile!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_totodile_valor_information"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_chikorita_mystic_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §9Team Mystic§0 with your companion as §achikorita§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_chikorita_mystic"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_cyndaquil_mystic_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §9Team Mystic§0 with your companion as §ccyndaquil§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_cyndaquil_mystic"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_totodile_mystic_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §9Team Mystic§0 with your companion as §9totodile§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_totodile_mystic"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_chikorita_instinct_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §eTeam Instinct§0 with your companion as §achikorita§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_chikorita_instinct"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_cyndaquil_instinct_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §eTeam Instinct§0 with your companion as §ccyndaquil§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_cyndaquil_instinct"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_totodile_instinct_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §eTeam Instinct§0 with your companion as §9totodile§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_totodile_instinct"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_chikorita_valor_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §cTeam Valor§0 with your companion as §achikorita§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_chikorita_valor"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_cyndaquil_valor_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §cTeam Valor§0 with your companion as §ccyndaquil§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_cyndaquil_valor"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         },
+         {
+            "scene_tag":"elm_totodile_valor_information",
+            "npc_name":"§9Professor Elm",
+            "text":"You have chosen §cTeam Valor§0 with your companion as §9totodile§0 is that correct?",
+            "buttons":[
+               {
+                  "name":"Yes! Thank you!",
+                  "commands":[
+                     "/say @p Have fun on your travels!",
+                     "event entity @e [type=reborn:elm_system,r=1] reborn:chosen_totodile_valor"
+                  ]
+               },
+               {
+                  "name":"Not sure yet!",
+                  "commands":[
+                     "dialogue open @e[type=reborn:elm_system,r=1] @p elm_system_intro"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

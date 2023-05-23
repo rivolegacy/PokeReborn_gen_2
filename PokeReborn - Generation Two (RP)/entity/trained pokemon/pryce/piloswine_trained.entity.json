@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:piloswine_trained",
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/piloswine",
+ "return": "textures/entity/return"
+        
+ 
+      },
+      "geometry": {
+        "default": "geometry.piloswine"
+      },
+      "animations": {
+
+    "chill": "animation.piloswine.chill",
+    "walk": "animation.piloswine.walk",
+    "sit": "animation.piloswine.sitting",
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "piloswine",
+        "texture_index": 1
+      }
+    }
+  }
+}

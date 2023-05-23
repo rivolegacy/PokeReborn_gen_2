@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pokeball.first_person_main_hand": {
+			"loop": true,
+			"bones": {
+				"pokeball": {
+					"rotation": [101.16109, 54.26935, -32.13454],
+					"position": [20, -5, 10],
+					"scale": [0.6, 0.6, 0.6]
+				}
+			}
+		},
+		"animation.pokeball.first_person_sneaking_main_hand": {
+			"loop": true,
+			"bones": {
+				"pokeball": {
+					"rotation": [101.16109, 54.26935, -32.13454],
+					"position": [20, -5, 10],
+					"scale": [0.6, 0.6, 0.6]
+				}
+			}
+		},
+		"animation.pokeball.third_person_main_hand": {
+			"loop": true,
+			"bones": {
+				"pokeball": {
+					"rotation": [90, 0, 0],
+					"position": [0, 11, -23],
+					"scale": [0.15, 0.15, 0.15]
+				}
+			}
+		}
+	}
+}

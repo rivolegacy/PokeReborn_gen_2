@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:pure_incense",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "pure_incense"
+    }
+  }
+}

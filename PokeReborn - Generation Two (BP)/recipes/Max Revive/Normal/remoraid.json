@@ -1,0 +1,23 @@
+{
+    "format_version":"1.12",
+    "minecraft:recipe_shapeless":{
+        "description":{
+            "identifier":"reborn:remoraid_revive"
+        },
+        "tags":[
+            "crafting_table"
+        ],
+        "ingredients":[
+            {
+                "item":"reborn:remoraid_fainted"
+            },
+            {
+                "item":"reborn:max_revive"
+            }
+        ],
+        "result":{
+            "item":"reborn:remoraid_ball",
+            "count":1
+        }
+    }
+}

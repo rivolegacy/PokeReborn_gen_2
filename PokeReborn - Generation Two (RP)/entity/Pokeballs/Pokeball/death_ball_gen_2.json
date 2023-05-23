@@ -1,0 +1,20 @@
+{
+   "format_version":"1.16.100",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:death_ball_gen_2",
+         "materials":{
+            "default":"entity_alphatest"
+         },
+         "textures":{
+            "default":"textures/entity/pokeballs/pokeball.png"
+         },
+         "geometry":{
+            "default":"geometry.pokeball_thrown"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

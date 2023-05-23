@@ -1,0 +1,31 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:meganium_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/meganium_shiny"
+         },
+         "geometry":{
+            "default":"geometry.meganium"
+         },
+         "animations":{
+            "chill":"animation.meganium.chill",
+            "walk":"animation.meganium.walk",
+            "sit":"animation.meganium.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

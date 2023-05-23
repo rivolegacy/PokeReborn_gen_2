@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pokestop",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Pokestop",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Pokestop",
+					"pivot": [-0.5, 8, 0.5],
+					"cubes": [
+						{"origin": [-2, 0, -1], "size": [3, 1, 3], "uv": [21, 14]},
+						{"origin": [-1, 1, 0], "size": [1, 6, 1], "uv": [0, 14]},
+						{"origin": [-4, 7, -3], "size": [7, 1, 7], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Pokestop",
+					"pivot": [-0.5, 19, 0.5],
+					"cubes": [
+						{"origin": [-7, 12, 0.5], "size": [13, 14, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,592 @@
+{
+   "format_version":"1.16.0",
+   "minecraft:entity":{
+      "description":{
+         "identifier":"reborn:elm_system",
+         "is_spawnable":false,
+         "is_summonable":true,
+         "is_experimental":false
+      },
+      "component_groups":{
+         "reborn:default":{
+            "minecraft:interact":{
+               "interactions":[
+                  {
+                     "on_interact":{
+                        "filters":{
+                           "all_of":[
+                              {
+                                 "test":"is_family",
+                                 "subject":"other",
+                                 "value":"player"
+                              }
+                           ]
+                        },
+                        "event":"reborn:dialogue",
+                        "target":"self"
+                     },
+                     "interact_text":"action.interact.elm_talk"
+                  }
+               ]
+            },
+            "minecraft:npc":{
+               "npc_data":{
+                  "portrait_offsets":{
+                     "translate":[
+                        -7,
+                        50,
+                        0
+                     ],
+                     "scale":[
+                        1.75,
+                        1.75,
+                        1.75
+                     ]
+                  }
+               }
+            }
+         },
+         "reborn:despawn":{
+            "minecraft:transformation":{
+               "into":"reborn:despawn"
+            }
+         }
+      },
+      "components":{
+         "minecraft:type_family":{
+            "family":[
+               "elm_system"
+            ]
+         },
+         "minecraft:collision_box":{
+            "width":0.6,
+            "height":1.8
+         },
+         "minecraft:health":{
+            "value":999,
+            "max":999
+         },
+         "minecraft:scale":{
+            "value":1.0
+         },
+         "minecraft:movement":{
+            "value":0.0
+         },
+         "minecraft:navigation.walk":{
+            "avoid_damage_blocks":true,
+            "avoid_portals":false,
+            "avoid_sun":false,
+            "avoid_water":false,
+            "can_breach":true,
+            "can_break_doors":false,
+            "can_jump":true,
+            "can_open_doors":true,
+            "can_open_iron_doors":true,
+            "can_pass_doors":true,
+            "can_path_from_air":false,
+            "can_path_over_lava":false,
+            "can_path_over_water":true,
+            "can_sink":true,
+            "can_swim":true,
+            "can_walk":true,
+            "can_walk_in_lava":false,
+            "is_amphibious":false
+         },
+         "minecraft:jump.static":{
+            
+         },
+         "minecraft:nameable":{
+            "allow_name_tag_renaming":true,
+            "always_show":false,
+            "default_trigger":{
+               "event":"reborn:from_default",
+               "target":"self"
+            }
+         },
+         "minecraft:movement.basic":{
+            
+         },
+         "minecraft:damage_sensor":{
+            "triggers":[
+               {
+                  "on_damage":{
+                     "filters":{
+                        "test":"is_family",
+                        "subject":"other",
+                        "value":"player"
+                     }
+                  },
+                  "deals_damage":false
+               }
+            ]
+         },
+         "minecraft:behavior.look_at_player":{
+            "priority":7,
+            "look_distance":6.0,
+            "probability":0.02
+         },
+         "minecraft:behavior.random_look_around":{
+            "priority":9
+         },
+         "minecraft:behavior.float":{
+            "priority":0
+         },
+         "minecraft:persistent":{
+            
+         },
+         "minecraft:pushable":{
+            "is_pushable":false,
+            "is_pushable_by_piston":false
+         },
+         "minecraft:physics":{
+            
+         }
+      },
+      "events":{
+         "minecraft:entity_spawned":{
+            "add":{
+               "component_groups":[
+                  "reborn:default"
+               ]
+            }
+         },
+         "reborn:dialogue":{
+            "run_command":{
+               "command":[
+                  "dialogue open @e[type=reborn:elm_system,r=2] @p elm_system_intro"
+               ]
+            }
+         },
+         "reborn:from_default":{
+            "add":{
+               "component_groups":[
+                  "reborn:default"
+               ]
+            }
+         },
+         "reborn:chosen_chikorita_mystic":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:chikorita_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/mystic"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:chikorita_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/mystic"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_chikorita_instinct":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:chikorita_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/instinct"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:chikorita_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/instinct"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_chikorita_valor":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:chikorita_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/valor"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:chikorita_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/valor"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_cyndaquil_mystic":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:cyndaquil_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/mystic"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:cyndaquil_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/mystic"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_cyndaquil_instinct":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:cyndaquil_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/instinct"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:cyndaquil_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/instinct"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_cyndaquil_valor":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:cyndaquil_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/valor"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:cyndaquil_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/valor"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_totodile_mystic":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:totodile_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/mystic"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:totodile_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/mystic"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_totodile_instinct":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:totodile_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/instinct"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:totodile_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/instinct"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         },
+         "reborn:chosen_totodile_valor":{
+            "sequence":[
+               {
+                  "add":{
+                     
+                  }
+               },
+               {
+                  "randomize":[
+                     {
+                        "weight":98,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:totodile_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/valor"
+                           ]
+                        }
+                     },
+                     {
+                        "weight":2,
+                        "add":{
+                           "component_groups":[
+                              "reborn:despawn"
+                           ]
+                        },
+                        "run_command":{
+                           "command":[
+                              "give @p reborn:totodile_shiny_ball 1",
+                              "give @p reborn:pokeball 15",
+                              "give @p reborn:pokecoin 10",
+                              "give @p reborn:empty_case 1",
+                              "function teams/valor"
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   }
+}

@@ -1,0 +1,95 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.chinchou",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Chinchou",
+					"pivot": [0, -2, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Chinchou",
+					"pivot": [0, 12, 4],
+					"cubes": [
+						{"origin": [-10, 6, -8], "size": [20, 12, 22], "uv": [0, 0]},
+						{"origin": [8.8, 6, -7], "size": [2, 12, 20], "uv": [64, 14]},
+						{"origin": [-10.8, 6, -7], "size": [2, 12, 20], "uv": [60, 60]},
+						{"origin": [-10, 16.8, -7], "size": [20, 2, 20], "uv": [0, 56]},
+						{"origin": [-10, 5.2, -7], "size": [20, 2, 20], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "Left_Leg",
+					"parent": "Chinchou",
+					"pivot": [4, 6, 10],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [2, 0, 10], "size": [4, 8, 2], "pivot": [6, 4, 10], "rotation": [0, 0, -12.5], "uv": [0, 56]}
+					]
+				},
+				{
+					"name": "Right_Leg",
+					"parent": "Chinchou",
+					"pivot": [-4, 6, 10],
+					"rotation": [22.5, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, 10], "size": [4, 8, 2], "pivot": [-6, 4, 10], "rotation": [0, 0, 12.5], "uv": [0, 12]}
+					]
+				},
+				{
+					"name": "Left_Arm",
+					"parent": "Chinchou",
+					"pivot": [-10, 10, 0],
+					"cubes": [
+						{"origin": [-18, 8, -2], "size": [8, 2, 4], "pivot": [-10, 8, -2], "rotation": [32.5, 0, -12.5], "uv": [62, 0]}
+					]
+				},
+				{
+					"name": "Right_Arm",
+					"parent": "Chinchou",
+					"pivot": [10, 10, 0],
+					"cubes": [
+						{"origin": [10, 8, -2], "size": [8, 2, 4], "pivot": [10, 8, -2], "rotation": [32.5, 0, 12.5], "uv": [60, 46]}
+					]
+				},
+				{
+					"name": "Left_Tent",
+					"parent": "Chinchou",
+					"pivot": [0, 20, 12],
+					"rotation": [-15, 15, -12.5],
+					"cubes": [
+						{"origin": [-1, 18, 12], "size": [1, 7, 1], "pivot": [0, 18, 12], "rotation": [25, 0, -15], "uv": [12, 46]},
+						{"origin": [-2.6, 24.2, 9.2], "size": [1, 7, 1], "pivot": [-2, 24, 10], "rotation": [47.5, 0, -15], "uv": [8, 46]},
+						{"origin": [-3.64, 29.4, 5.8], "size": [1, 13, 1], "pivot": [-2, 28, 6], "rotation": [77.5, 0, -15], "uv": [16, 56]},
+						{"origin": [-4.7, 32, -9.6], "size": [1, 9, 1], "pivot": [-4, 32, -8], "rotation": [115, 0, -15], "uv": [16, 12]},
+						{"origin": [-3.16472, 24.8, -16.2], "size": [1, 5, 1], "pivot": [-4, 26, -16], "rotation": [140, 0, -15], "uv": [60, 60]},
+						{"origin": [-5.68735, 28.43247, -18.25481], "size": [5, 7, 5], "pivot": [-4, 26, -16], "rotation": [140, 0, -15], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "Right_Tent2",
+					"parent": "Chinchou",
+					"pivot": [0, 20, 12],
+					"rotation": [-15, -15, 12.5],
+					"cubes": [
+						{"origin": [0, 18, 12], "size": [1, 7, 1], "pivot": [0, 18, 12], "rotation": [25, 0, 15], "uv": [4, 46]},
+						{"origin": [1.6, 24.2, 9.2], "size": [1, 7, 1], "pivot": [2, 24, 10], "rotation": [47.5, 0, 15], "uv": [0, 46]},
+						{"origin": [2.64, 29.4, 5.8], "size": [1, 13, 1], "pivot": [2, 28, 6], "rotation": [77.5, 0, 15], "uv": [12, 56]},
+						{"origin": [3.7, 32, -9.6], "size": [1, 9, 1], "pivot": [4, 32, -8], "rotation": [115, 0, 15], "uv": [12, 12]},
+						{"origin": [2.16472, 24.8, -16.2], "size": [1, 5, 1], "pivot": [4, 26, -16], "rotation": [140, 0, 15], "uv": [16, 46]},
+						{"origin": [0.68735, 28.43247, -18.25481], "size": [5, 7, 5], "pivot": [4, 26, -16], "rotation": [140, 0, 15], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

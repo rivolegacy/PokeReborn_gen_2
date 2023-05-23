@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:grass_candy_xl"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:grass_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:grass_candy_xl",
+         "count":1
+      }
+   }
+}

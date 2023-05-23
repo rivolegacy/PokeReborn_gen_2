@@ -1,0 +1,30 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:case_four"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " S ",
+         " # ",
+         "   "
+      ],
+      "key":{
+         "S":{
+              "item": "reborn:fog_badge"
+
+         },
+         "#":{
+            "item":"reborn:case_three"
+           
+         }
+      },
+      "result":{
+         "item":"reborn:case_four",
+         "count":1
+      }
+   }
+}

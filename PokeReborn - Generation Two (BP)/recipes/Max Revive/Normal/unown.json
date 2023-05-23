@@ -1,0 +1,23 @@
+{
+    "format_version":"1.12",
+    "minecraft:recipe_shapeless":{
+        "description":{
+            "identifier":"reborn:unown_revive"
+        },
+        "tags":[
+            "crafting_table"
+        ],
+        "ingredients":[
+            {
+                "item":"reborn:unown_fainted"
+            },
+            {
+                "item":"reborn:max_revive"
+            }
+        ],
+        "result":{
+            "item":"reborn:unown_ball",
+            "count":1
+        }
+    }
+}

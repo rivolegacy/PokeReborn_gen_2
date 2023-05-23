@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:lance_badge",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "winner_badge"
+    }
+  }
+}

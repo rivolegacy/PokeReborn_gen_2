@@ -1,0 +1,84 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.go_gym",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, 2.5, 0]
+			},
+			"bones": [
+				{
+					"name": "Go_Gym",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Go_Gym",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 0, -3], "size": [6, 1, 6], "uv": [14, 79]},
+						{"origin": [-0.5, 1, -0.5], "size": [1, 34, 1], "uv": [52, 80]}
+					]
+				},
+				{
+					"name": "Middle",
+					"parent": "Go_Gym",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{"origin": [-5, 12, -5], "size": [10, 1, 10], "uv": [66, 9]},
+						{"origin": [-5, 10, -7], "size": [10, 2, 1], "uv": [0, 15]},
+						{"origin": [-5, 10, 6], "size": [10, 2, 1], "uv": [0, 12]},
+						{"origin": [-7, 10, -5], "size": [1, 2, 10], "uv": [36, 53]},
+						{"origin": [6, 10, -5], "size": [1, 2, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Middle2",
+					"parent": "Go_Gym",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-6, 23, -6], "size": [12, 1, 12], "uv": [61, 53]},
+						{"origin": [-6, 19, -10], "size": [12, 4, 1], "uv": [82, 71]},
+						{"origin": [-6, 19, 9], "size": [12, 4, 1], "uv": [82, 66]},
+						{"origin": [-10, 19, -6], "size": [1, 4, 12], "uv": [26, 79]},
+						{"origin": [9, 19, -6], "size": [1, 4, 12], "uv": [0, 79]}
+					]
+				},
+				{
+					"name": "Middle3",
+					"parent": "Go_Gym",
+					"pivot": [0, 36, 0],
+					"cubes": [
+						{"origin": [-7, 35, -7], "size": [14, 1, 14], "uv": [34, 38]},
+						{"origin": [-7, 31, -16], "size": [14, 5, 1], "uv": [76, 43]},
+						{"origin": [-7, 31, 14], "size": [14, 5, 1], "uv": [76, 37]},
+						{"origin": [-15, 31, -7], "size": [1, 5, 14], "uv": [66, 66]},
+						{"origin": [14, 31, -7], "size": [1, 5, 13], "uv": [21, 53]}
+					]
+				},
+				{
+					"name": "Middle4",
+					"parent": "Go_Gym",
+					"pivot": [0, 39, 0]
+				},
+				{
+					"name": "Top",
+					"parent": "Go_Gym",
+					"pivot": [0, 44, 0],
+					"cubes": [
+						{"origin": [-11, 38, -11], "size": [22, 6, 22], "uv": [0, 0]},
+						{"origin": [-12, 62, 0], "size": [24, 24, 0], "uv": [0, 28]},
+						{"origin": [-11, 53, 20], "size": [22, 8, 1], "pivot": [0, 53, 21], "rotation": [15, 0, 0], "uv": [66, 0]},
+						{"origin": [-11, 53, -21], "size": [22, 8, 1], "pivot": [0, 53, -21], "rotation": [-15, 0, 0], "uv": [48, 28]},
+						{"origin": [-21, 53, -9], "size": [1, 8, 19], "pivot": [-21, 53, 0], "rotation": [0, 0, 15], "uv": [40, 53]},
+						{"origin": [20, 53, -9], "size": [1, 8, 19], "pivot": [21, 53, 0], "rotation": [0, 0, -15], "uv": [0, 52]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:moomoo_milk",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "moomoo_milk"
+    }
+  }
+}

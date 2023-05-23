@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:blissey_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/blissey_shiny"
+         },
+         "geometry":{
+            "default":"geometry.blissey"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "chill":"animation.blissey.chill",
+            "walk":"animation.blissey.walk",
+            "sit":"animation.blissey.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

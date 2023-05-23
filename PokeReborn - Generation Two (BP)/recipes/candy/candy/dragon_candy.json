@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:dragon_candy"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:small_dragon_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:dragon_candy",
+         "count":1
+      }
+   }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:lapras_trained",
+      
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/lapras",
+        "return": "textures/entity/return"
+        
+ 
+      },
+      "geometry": {
+        "default": "geometry.lapras"
+      },
+      "animations": {
+
+    "chill": "animation.lapras.chill",
+    "walk": "animation.lapras.walk",
+    "sit": "animation.lapras.sitting",
+
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "lapras",
+        "texture_index": 1
+      }
+    }
+  }
+}

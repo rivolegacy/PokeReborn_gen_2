@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:normal_candy_xl"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:normal_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:normal_candy_xl",
+         "count":1
+      }
+   }
+}

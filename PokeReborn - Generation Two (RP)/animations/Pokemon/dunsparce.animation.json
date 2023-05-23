@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dunsparce.chill": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.52": [0, 0, 5],
+						"1.0": [0, 0, -5]
+					}
+				}
+			}
+		},
+		"animation.dunsparce.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"dunsparce": {
+					"rotation": {
+						"0.0": [0, -5, 0],
+						"0.24": [0, 5, 0],
+						"0.52": [0, -5, 0],
+						"0.76": [0, 5, 0],
+						"1.0": [0, -5, 0]
+					}
+				}
+			}
+		},
+		"animation.dunsparce.sitting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"dunsparce": {
+					"rotation": [-12.5, 0, 0]
+				}
+			}
+		}
+	}
+}

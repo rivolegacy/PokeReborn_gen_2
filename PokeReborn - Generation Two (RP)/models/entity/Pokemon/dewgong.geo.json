@@ -1,0 +1,69 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dewgong",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Dewgong",
+					"pivot": [0, 0, -3]
+				},
+				{
+					"name": "Body",
+					"parent": "Dewgong",
+					"pivot": [0, 1, -1],
+					"cubes": [
+						{"origin": [-2, 3, -8], "size": [4, 2, 3], "pivot": [0, 3, -5], "rotation": [20, 0, 0], "uv": [0, 20]},
+						{"origin": [-2, 0, -1], "size": [4, 3.5, 6], "uv": [0, 11]},
+						{"origin": [-2, 0, -8], "size": [4, 4, 7], "uv": [0, 0]},
+						{"origin": [-1.5, 0, 5], "size": [3, 2, 2], "pivot": [0, 0, 2], "rotation": [17.5, 0, 0], "uv": [22, 6]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Dewgong",
+					"pivot": [0, 3, 6],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-1, 1.76795, 5.86602], "size": [2, 1, 2], "pivot": [0, -0.23205, 3.86602], "rotation": [7.5, 0, 0], "uv": [12, 24]},
+						{"origin": [-0.5, 1.76795, 7.86602], "size": [1, 1, 1], "pivot": [0, -0.23205, 3.86602], "rotation": [7.5, 0, 0], "uv": [0, 2]},
+						{"origin": [-3.4, 2.26795, 8.86602], "size": [7, 0, 6], "pivot": [0, -0.23205, 3.86602], "rotation": [7.5, 0, 0], "uv": [9, 0]}
+					]
+				},
+				{
+					"name": "Arm",
+					"parent": "Dewgong",
+					"pivot": [-2, 1, -7],
+					"cubes": [
+						{"origin": [-7.5, 1, -8], "size": [5.5, 0, 3.5], "uv": [11, 14]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Dewgong",
+					"pivot": [2, 1, -7],
+					"cubes": [
+						{"origin": [2, 1, -8], "size": [5.5, 0, 3.5], "uv": [11, 11]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Dewgong",
+					"pivot": [0, 5, -7],
+					"cubes": [
+						{"origin": [-2, 3.5, -9], "size": [4, 4.5, 3.5], "uv": [17, 17]},
+						{"origin": [-1.95, 3.5, -9.5], "size": [3.9, 2, 1], "uv": [24, 10]},
+						{"origin": [-0.5, 8, -8], "size": [1, 1.3, 1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

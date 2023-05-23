@@ -1,0 +1,57 @@
+{
+   "format_version":"1.16.100",
+   "minecraft:item":{
+      "description":{
+         "identifier":"reborn:xatu_shiny_ball",
+         "category":"equipment"
+      },
+      "components":{
+         "minecraft:creative_category":{
+            "parent":"itemGroup.name.arrow"
+         },
+         "minecraft:max_stack_size":1,
+         "minecraft:foil": true,
+         "minecraft:display_name":{
+            "value":"shiny xatu"
+         },
+         "minecraft:icon":{
+            "texture":"xatu_shiny"
+         },
+         "minecraft:render_offsets":{
+            "main_hand":{
+               "first_person":{
+                  "scale":[
+                     0.01,
+                     0.01,
+                     0.01
+                  ]
+               },
+               "third_person":{
+                  "scale":[
+                     0.02,
+                     0.02,
+                     0.02
+                  ]
+               }
+            }
+         },
+         "minecraft:projectile":{
+            "projectile_entity":"reborn:pokeball_release_thrown<to_xatu_shiny>"
+         },
+         "minecraft:throwable":{
+            "do_swing_animation":true
+         },
+         "minecraft:on_use":{
+            "on_use":{
+               "event":"throw",
+               "target":"self"
+            }
+         }
+      },
+      "events":{
+         "throw":{
+          
+         }
+      }
+   }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:novice_trainer_card",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "novice_trainer_card"
+    }
+  }
+}

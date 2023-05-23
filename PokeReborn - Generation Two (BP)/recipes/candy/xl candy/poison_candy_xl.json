@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:poison_candy_xl"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:poison_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:poison_candy_xl",
+         "count":1
+      }
+   }
+}

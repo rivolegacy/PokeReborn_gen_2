@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:electric_candy_xl",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "electric_candy_xl"
+    }
+  }
+}

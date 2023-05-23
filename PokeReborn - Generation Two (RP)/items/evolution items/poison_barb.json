@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:poison_barb",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "poison_barb"
+    }
+  }
+}

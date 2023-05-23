@@ -1,0 +1,23 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:pc",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pc"
+         },
+         "geometry":{
+            "default":"geometry.pc"
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ],
+         "spawn_egg":{
+            "texture":"pc"
+         }
+      }
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:furret_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/furret_shiny"
+         },
+         "geometry":{
+            "default":"geometry.furret"
+         },
+         "animations":{
+            "chill":"animation.furret.chill",
+            "walk":"animation.furret.walk",
+            "sit":"animation.furret.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

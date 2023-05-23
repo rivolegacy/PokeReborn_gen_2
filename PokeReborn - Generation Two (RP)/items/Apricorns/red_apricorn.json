@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:red_apricorn",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "red_apricorn"
+    }
+  }
+}

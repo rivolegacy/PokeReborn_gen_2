@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pokeball_thrown.idle": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"pokeball": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

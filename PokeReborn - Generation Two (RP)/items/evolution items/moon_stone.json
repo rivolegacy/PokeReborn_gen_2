@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:moon_stone",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "moon_stone"
+    }
+  }
+}

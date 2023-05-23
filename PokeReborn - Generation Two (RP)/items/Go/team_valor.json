@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:team_valor",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "team_valor"
+    }
+  }
+}

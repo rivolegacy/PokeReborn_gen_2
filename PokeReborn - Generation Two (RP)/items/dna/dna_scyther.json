@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:dna_scyther",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "dna_scyther"
+    }
+  }
+}

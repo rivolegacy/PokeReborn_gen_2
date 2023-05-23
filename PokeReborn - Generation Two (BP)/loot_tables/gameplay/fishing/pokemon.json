@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:fish",
+          "weight": 100
+        },
+        {
+          "type": "item",
+          "name": "minecraft:salmon",
+          "weight": 70
+        },
+        {
+          "type": "item",
+          "name": "reborn:wooper_spawn_egg",
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "reborn:wooper_shiny_spawn_egg",
+          "weight": 1
+        },
+      
+       {
+          "type": "item",
+          "name": "reborn:remoraid_spawn_egg",
+          "weight": 20
+        },
+       {
+          "type": "item",
+          "name": "reborn:remoraid_shiny_spawn_egg",
+          "weight": 1
+        }
+
+      ]
+    }
+  ]
+}

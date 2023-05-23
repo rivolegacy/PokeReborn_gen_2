@@ -1,0 +1,40 @@
+
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:dragonair3_trained",
+      
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/dragonair",
+        "return": "textures/entity/return"
+        
+ 
+      },
+      "geometry": {
+        "default": "geometry.dragonair"
+      },
+      "animations": {
+
+    "chill": "animation.dragonair.chill",
+    "walk": "animation.dragonair.walk",
+    "sit": "animation.dragonair.sitting",
+
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "dragonair",
+        "texture_index": 1
+      }
+    }
+  }
+}

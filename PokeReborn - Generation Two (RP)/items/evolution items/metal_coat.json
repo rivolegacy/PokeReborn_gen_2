@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:metal_coat",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "metal_coat"
+    }
+  }
+}

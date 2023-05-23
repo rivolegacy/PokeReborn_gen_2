@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:slugma_shiny_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "slugma_shiny_fainted"
+    }
+  }
+}

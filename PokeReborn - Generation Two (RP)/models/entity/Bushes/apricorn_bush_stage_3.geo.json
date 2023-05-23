@@ -1,0 +1,175 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.apricorn_bush_stage_3",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "apricorn_bush_stage_3",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Base",
+					"parent": "apricorn_bush_stage_3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 0, -1],
+							"size": [2, 2, 2],
+							"uv": {
+								"north": {"uv": [4, 20], "uv_size": [2, 2]},
+								"east": {"uv": [20, 16], "uv_size": [2, 2]},
+								"south": {"uv": [4, 22], "uv_size": [2, 2]},
+								"west": {"uv": [22, 16], "uv_size": [2, 2]},
+								"up": {"uv": [13, 23], "uv_size": [2, 2]},
+								"down": {"uv": [15, 25], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [-2.4, 0, -1],
+							"size": [1.4, 0.5, 2],
+							"pivot": [-1, 0.5, 0],
+							"rotation": [0, 0, -21],
+							"uv": {
+								"north": {"uv": [20, 24], "uv_size": [1, 1]},
+								"east": {"uv": [23, 23], "uv_size": [2, 1]},
+								"south": {"uv": [3, 25], "uv_size": [1, 1]},
+								"west": {"uv": [0, 24], "uv_size": [2, 1]},
+								"up": {"uv": [6, 20], "uv_size": [1, 2]},
+								"down": {"uv": [6, 24], "uv_size": [1, -2]}
+							}
+						},
+						{
+							"origin": [1, 0, -1],
+							"size": [1.4, 0.5, 2],
+							"pivot": [1, 0.5, 0],
+							"rotation": [0, 0, 21],
+							"uv": {
+								"north": {"uv": [25, 3], "uv_size": [1, 1]},
+								"east": {"uv": [24, 0], "uv_size": [2, 1]},
+								"south": {"uv": [4, 25], "uv_size": [1, 1]},
+								"west": {"uv": [24, 1], "uv_size": [2, 1]},
+								"up": {"uv": [2, 24], "uv_size": [1, 2]},
+								"down": {"uv": [24, 4], "uv_size": [1, -2]}
+							}
+						},
+						{
+							"origin": [0, 0, 0],
+							"size": [1.4, 0.5, 2],
+							"pivot": [0, 0.5, 1],
+							"rotation": [-90, -69, 90],
+							"uv": {
+								"north": {"uv": [5, 25], "uv_size": [1, 1]},
+								"east": {"uv": [3, 24], "uv_size": [2, 1]},
+								"south": {"uv": [6, 25], "uv_size": [1, 1]},
+								"west": {"uv": [5, 24], "uv_size": [2, 1]},
+								"up": {"uv": [7, 24], "uv_size": [1, 2]},
+								"down": {"uv": [8, 26], "uv_size": [1, -2]}
+							}
+						},
+						{
+							"origin": [0, 0, -2],
+							"size": [1.4, 0.5, 2],
+							"pivot": [0, 0.5, -1],
+							"rotation": [90, 69, 90],
+							"uv": {
+								"north": {"uv": [9, 25], "uv_size": [1, 1]},
+								"east": {"uv": [9, 24], "uv_size": [2, 1]},
+								"south": {"uv": [10, 25], "uv_size": [1, 1]},
+								"west": {"uv": [11, 24], "uv_size": [2, 1]},
+								"up": {"uv": [24, 16], "uv_size": [1, 2]},
+								"down": {"uv": [17, 26], "uv_size": [1, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Plant",
+					"parent": "apricorn_bush_stage_3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3, 2, -3],
+							"size": [6, 0.5, 6],
+							"uv": {
+								"north": {"uv": [20, 4], "uv_size": [6, 1]},
+								"east": {"uv": [20, 5], "uv_size": [6, 1]},
+								"south": {"uv": [20, 6], "uv_size": [6, 1]},
+								"west": {"uv": [20, 7], "uv_size": [6, 1]},
+								"up": {"uv": [14, 0], "uv_size": [6, 6]},
+								"down": {"uv": [14, 12], "uv_size": [6, -6]}
+							}
+						},
+						{
+							"origin": [-3, 8.5, -3],
+							"size": [6, 0.5, 6],
+							"uv": {
+								"north": {"uv": [20, 8], "uv_size": [6, 1]},
+								"east": {"uv": [20, 9], "uv_size": [6, 1]},
+								"south": {"uv": [20, 10], "uv_size": [6, 1]},
+								"west": {"uv": [20, 11], "uv_size": [6, 1]},
+								"up": {"uv": [14, 12], "uv_size": [6, 6]},
+								"down": {"uv": [7, 24], "uv_size": [6, -6]}
+							}
+						},
+						{
+							"origin": [-1.75, 9, -1.75],
+							"size": [3.5, 0.5, 3.5],
+							"uv": {
+								"north": {"uv": [17, 23], "uv_size": [4, 1]},
+								"east": {"uv": [23, 18], "uv_size": [4, 1]},
+								"south": {"uv": [23, 19], "uv_size": [4, 1]},
+								"west": {"uv": [23, 20], "uv_size": [4, 1]},
+								"up": {"uv": [0, 20], "uv_size": [4, 4]},
+								"down": {"uv": [20, 4], "uv_size": [4, -4]}
+							}
+						},
+						{
+							"origin": [-1, 9.4, -1],
+							"size": [2, 0.5, 2],
+							"uv": {
+								"north": {"uv": [18, 24], "uv_size": [2, 1]},
+								"east": {"uv": [23, 24], "uv_size": [2, 1]},
+								"south": {"uv": [0, 25], "uv_size": [2, 1]},
+								"west": {"uv": [25, 2], "uv_size": [2, 1]},
+								"up": {"uv": [21, 23], "uv_size": [2, 2]},
+								"down": {"uv": [23, 23], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [-2.5, 9, -2.5],
+							"size": [5, 0.2, 5],
+							"uv": {
+								"north": {"uv": [20, 12], "uv_size": [5, 1]},
+								"east": {"uv": [20, 13], "uv_size": [5, 1]},
+								"south": {"uv": [20, 14], "uv_size": [5, 1]},
+								"west": {"uv": [20, 15], "uv_size": [5, 1]},
+								"up": {"uv": [13, 18], "uv_size": [5, 5]},
+								"down": {"uv": [18, 23], "uv_size": [5, -5]}
+							}
+						},
+						{
+							"origin": [-3.5, 2.5, -3.5],
+							"size": [7, 6, 7],
+							"uv": {
+								"north": {"uv": [7, 0], "uv_size": [7, 6]},
+								"east": {"uv": [7, 6], "uv_size": [7, 6]},
+								"south": {"uv": [7, 12], "uv_size": [7, 6]},
+								"west": {"uv": [0, 14], "uv_size": [7, 6]},
+								"up": {"uv": [0, 0], "uv_size": [7, 7]},
+								"down": {"uv": [0, 14], "uv_size": [7, -7]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "reborn:haunter2_trained",
+      "materials": { 
+          "default": "entity_emissive_alpha"
+          },
+      "textures": {
+        "default": "textures/entity/pokemon/haunter",
+        "return": "textures/entity/return"
+        
+ 
+      },
+      "geometry": {
+        "default": "geometry.haunter"
+      },
+      "animations": {
+
+    "chill": "animation.haunter.chill",
+    "walk": "animation.haunter.walk",
+    "sit": "animation.haunter.sitting",
+    "reborn_pokemon_controller": "controller.animation.reborn_pokemon"
+      },
+      "scripts": {
+        "animate": [
+          "reborn_pokemon_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.reborn_pokemon" ],
+      "spawn_egg": {
+          "texture": "haunter",
+        "texture_index": 1
+      }
+    }
+  }
+}

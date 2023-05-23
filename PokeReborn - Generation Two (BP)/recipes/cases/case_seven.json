@@ -1,0 +1,30 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:case_seven"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " S ",
+         " # ",
+         "   "
+      ],
+      "key":{
+         "S":{
+              "item": "reborn:glacier_badge"
+
+         },
+         "#":{
+            "item":"reborn:case_six"
+           
+         }
+      },
+      "result":{
+         "item":"reborn:case_seven",
+         "count":1
+      }
+   }
+}

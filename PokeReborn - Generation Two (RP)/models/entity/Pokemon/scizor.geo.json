@@ -1,0 +1,111 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.scizor",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Scizor",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Leg",
+					"parent": "Scizor",
+					"pivot": [-4, 14, 0],
+					"cubes": [
+						{"origin": [-8, 12.26374, -1.5], "size": [4, 2.8, 3], "pivot": [-5.5, 12, 0], "rotation": [0, 0, 12.5], "uv": [18, 0]},
+						{"origin": [-7.47706, 7.42284, -1], "size": [2, 6.8, 2], "pivot": [-7.5, 8, 0], "rotation": [0, 0, 7.5], "uv": [0, 64]},
+						{"origin": [-8.3, 0.4, -2], "size": [3, 7.8, 4], "pivot": [-7.5, 2, 0], "rotation": [0, 0, 5], "uv": [60, 0]},
+						{"origin": [-7.8, 0.4, -3], "size": [2, 1.8, 1], "pivot": [-7.5, 2, 0], "rotation": [0, 0, 5], "uv": [11, 14]},
+						{"origin": [-7.8, 0.4, 2], "size": [2, 1.8, 1], "pivot": [-7.5, 2, 0], "rotation": [0, 0, 5], "uv": [0, 4]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Scizor",
+					"pivot": [2, 14, 0],
+					"cubes": [
+						{"origin": [2, 12.26374, -1.5], "size": [4, 2.8, 3], "pivot": [3.5, 12, 0], "rotation": [0, 0, -12.5], "uv": [0, 14]},
+						{"origin": [3.47706, 7.42284, -1], "size": [2, 6.8, 2], "pivot": [5.5, 8, 0], "rotation": [0, 0, -7.5], "uv": [44, 45]},
+						{"origin": [3.3, 0.4, -2], "size": [3, 7.8, 4], "pivot": [5.5, 2, 0], "rotation": [0, 0, -5], "uv": [52, 57]},
+						{"origin": [3.8, 0.4, -3], "size": [2, 1.8, 1], "pivot": [5.5, 2, 0], "rotation": [0, 0, -5], "uv": [0, 2]},
+						{"origin": [3.8, 0.4, 2], "size": [2, 1.8, 1], "pivot": [5.5, 2, 0], "rotation": [0, 0, -5], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Scizor",
+					"pivot": [-1, 26, 2],
+					"cubes": [
+						{"origin": [-3, 8, -3], "size": [4, 2, 6], "uv": [32, 57]},
+						{"origin": [-3, 18, -3], "size": [4, 2, 6], "uv": [56, 45]},
+						{"origin": [-3, 22, -3], "size": [4, 8, 6], "uv": [36, 0]},
+						{"origin": [-5, 22, -3], "size": [2, 8, 6], "pivot": [-4, 26, 2], "rotation": [0, -20, 0], "uv": [16, 50]},
+						{"origin": [1, 22, -3.6], "size": [2, 8, 6], "pivot": [4, 26, 2], "rotation": [0, 20, 0], "uv": [0, 50]},
+						{"origin": [-2, 20, -1], "size": [2, 2, 2], "uv": [62, 29]},
+						{"origin": [-2, 30, -1], "size": [2, 2, 2], "uv": [61, 16]},
+						{"origin": [-4, 10, -3], "size": [6, 8, 6], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Arm",
+					"parent": "Scizor",
+					"pivot": [-4, 28, 0],
+					"cubes": [
+						{"origin": [-7.6, 26, -2], "size": [3.6, 3.6, 3.6], "pivot": [-6, 28, 0], "rotation": [0, 0, -12.5], "uv": [61, 21]},
+						{"origin": [-12.9, 26.56712, -1], "size": [5.8, 1.6, 1.6], "pivot": [-8, 28, 0], "rotation": [0, 0, -72.5], "uv": [29, 0]},
+						{"origin": [-14.8, 26.3, -1.2], "size": [2, 2, 2], "pivot": [-8, 28, 0], "rotation": [0, 0, -72.5], "uv": [46, 57]},
+						{"origin": [-19.47628, 22.1968, -2], "size": [9, 4, 3], "pivot": [-10, 22, 0], "rotation": [35, -12.5, -57.5], "uv": [40, 38]},
+						{"origin": [-19.47628, 18.1968, -2], "size": [9, 4, 3], "pivot": [-10, 22, 0], "rotation": [35, 0, -72.5], "uv": [40, 31]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Scizor",
+					"pivot": [2, 28, 0],
+					"cubes": [
+						{"origin": [2, 26, -2], "size": [3.6, 3.6, 3.6], "pivot": [4, 28, 0], "rotation": [0, 0, 12.5], "uv": [10, 50]},
+						{"origin": [5.1, 26.56712, -1], "size": [5.8, 1.6, 1.6], "pivot": [6, 28, 0], "rotation": [0, 0, 72.5], "uv": [24, 5]},
+						{"origin": [10.8, 26.3, -1.2], "size": [2, 2, 2], "pivot": [6, 28, 0], "rotation": [0, 0, 72.5], "uv": [50, 0]},
+						{"origin": [8.47628, 22.1968, -2], "size": [9, 4, 3], "pivot": [8, 22, 0], "rotation": [35, 12.5, 57.5], "uv": [40, 24]},
+						{"origin": [8.47628, 18.1968, -2], "size": [9, 4, 3], "pivot": [8, 22, 0], "rotation": [35, 0, 72.5], "uv": [40, 17]}
+					]
+				},
+				{
+					"name": "Wing",
+					"parent": "Scizor",
+					"pivot": [2, 28, 2],
+					"cubes": [
+						{"origin": [1, 17, 3], "size": [0, 15, 20], "pivot": [0, 24, 2], "rotation": [20, 25, 0], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "Wing2",
+					"parent": "Scizor",
+					"pivot": [-4, 28, 0],
+					"cubes": [
+						{"origin": [-3, 17, 4], "size": [0, 15, 20], "pivot": [0, 24, 2], "rotation": [20, -25, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Scizor",
+					"pivot": [-1, 32, 0],
+					"cubes": [
+						{"origin": [-4, 31, -4], "size": [6, 6, 6], "uv": [18, 8]},
+						{"origin": [-4, 35, -4], "size": [2, 2, 8], "pivot": [-2, 38, -2], "rotation": [30, -30, 0], "uv": [48, 6]},
+						{"origin": [-2, 35, -4], "size": [2, 2, 8], "pivot": [0, 38, -2], "rotation": [47.5, 0, 0], "uv": [44, 47]},
+						{"origin": [0, 35, -4], "size": [2, 2, 8], "pivot": [0, 38, -2], "rotation": [30, 30, 0], "uv": [32, 45]}
+					]
+				}
+			]
+		}
+	]
+}

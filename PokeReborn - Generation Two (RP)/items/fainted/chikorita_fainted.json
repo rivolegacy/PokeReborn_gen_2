@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:chikorita_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "chikorita_fainted"
+    }
+  }
+}

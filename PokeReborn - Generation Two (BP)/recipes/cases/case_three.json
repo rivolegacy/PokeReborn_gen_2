@@ -1,0 +1,30 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:case_three"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " S ",
+         " # ",
+         "   "
+      ],
+      "key":{
+         "S":{
+              "item": "reborn:plain_badge"
+
+         },
+         "#":{
+            "item":"reborn:case_two"
+           
+         }
+      },
+      "result":{
+         "item":"reborn:case_three",
+         "count":1
+      }
+   }
+}

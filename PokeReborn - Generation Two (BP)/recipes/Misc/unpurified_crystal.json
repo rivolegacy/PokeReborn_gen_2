@@ -1,0 +1,30 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:unpurified_crystal"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "SSS",
+         "S#S",
+         "SSS"
+      ],
+      "key":{
+         "S":{
+              "item": "minecraft:blackstone"
+
+         },
+         "#":{
+            "item":"minecraft:diamond"
+           
+         }
+      },
+      "result":{
+         "item":"reborn:unpurified_crystal",
+         "count":1
+      }
+   }
+}

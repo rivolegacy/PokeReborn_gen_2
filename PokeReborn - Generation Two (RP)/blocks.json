@@ -1,0 +1,35 @@
+{
+   "format_version":[
+      1,
+      1,
+      0
+   ],
+   "reborn:fossil_ore":{
+      "textures":"reborn_fossil_ore",
+      "sound":"stone"
+   },
+   "reborn:apricorn_bush_stage_1":{
+      "textures":"apricorn_bush_stage_1",
+      "sound":"grass"
+   },
+   "reborn:apricorn_bush_stage_2":{
+      "textures":"apricorn_bush_stage_2",
+      "sound":"grass"
+   },
+   "reborn:apricorn_bush_stage_3":{
+      "textures":"apricorn_bush_stage_3",
+      "sound":"grass"
+   },
+   "reborn:apricorn_bush_stage_4":{
+      "textures":"apricorn_bush_stage_4",
+      "sound":"grass"
+   },
+   "reborn:apricorn_bush_flower_red":{
+      "textures":"apricorn_bush_flower_red",
+      "sound":"grass"
+   },
+   "reborn:apricorn_bush_red":{
+      "textures":"apricorn_bush_red",
+      "sound":"grass"
+   }
+}

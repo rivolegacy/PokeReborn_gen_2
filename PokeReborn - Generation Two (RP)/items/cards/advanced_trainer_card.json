@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:advanced_trainer_card",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "advanced_trainer_card"
+    }
+  }
+}

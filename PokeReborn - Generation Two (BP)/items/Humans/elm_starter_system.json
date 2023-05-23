@@ -1,0 +1,55 @@
+{
+   "format_version":"1.16.100",
+   "minecraft:item":{
+      "description":{
+         "identifier":"reborn:elm_starter_system",
+         "category":"equipment"
+      },
+      "components":{
+        "minecraft:creative_category":{
+            "parent":"itemGroup.name.equipment"
+         },
+         "minecraft:max_stack_size":1,
+         "minecraft:display_name":{
+            "value":"Professor elm"
+         },
+         "minecraft:icon":{
+            "texture":"elm_starter_system"
+         },
+         "minecraft:render_offsets":{
+            "main_hand":{
+               "first_person":{
+                  "scale":[
+                     0.03,
+                     0.03,
+                     0.03
+                  ]
+               },
+               "third_person":{
+                  "scale":[
+                     0.06,
+                     0.06,
+                     0.06
+                  ]
+               }
+            }
+         },
+         "minecraft:on_use":{
+            "on_use":{
+               "event":"use",
+               "target":"self"
+            }
+         }
+      },
+      "events":{
+         "use":{
+            "run_command":{
+               "command":[
+                  "summon reborn:elm_system ~ ~ ~ reborn:from_default §9Elm",
+                  "replaceitem entity @s slot.weapon.mainhand 0 air"
+               ]
+            }
+         }
+      }
+   }
+}

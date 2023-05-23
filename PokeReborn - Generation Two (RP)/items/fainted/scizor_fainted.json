@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:scizor_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "scizor_fainted"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.healing_machine",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Healing_machine",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Healing_machine",
+					"pivot": [0, 0, 1],
+					"cubes": [
+						{"origin": [-4, 0, -6], "size": [8, 7, 12], "uv": [0, 0]},
+						{"origin": [-3.5, 7, -6], "size": [7, 1, 12], "uv": [0, 19]},
+						{"origin": [4, 0, -6], "size": [1, 7, 12], "uv": [0, 32]},
+						{"origin": [-5, 0, -6], "size": [1, 7, 12], "uv": [26, 20]},
+						{"origin": [4, 7, -6], "size": [1, 2, 12], "pivot": [5, 7, 0], "rotation": [0, 0, -50], "uv": [40, 0]},
+						{"origin": [-5, 7, -6], "size": [1, 2, 12], "pivot": [-5, 7, 0], "rotation": [0, 0, 50], "uv": [14, 39]},
+						{"origin": [-5, 0, -7], "size": [1, 8, 1], "uv": [0, 19]},
+						{"origin": [-5, 0, 6], "size": [1, 8, 1], "uv": [8, 0]},
+						{"origin": [-4, 7, 6], "size": [8, 1, 1], "uv": [28, 9]},
+						{"origin": [-4, 7, -7], "size": [8, 1, 1], "uv": [28, 7]},
+						{"origin": [-4, 8, -7], "size": [8, 1, 1], "uv": [28, 5]},
+						{"origin": [-4, 8, 6], "size": [8, 4, 1], "uv": [28, 0]},
+						{"origin": [-3, 12, 6], "size": [6, 1, 1], "uv": [39, 18]},
+						{"origin": [-4, 6, -7], "size": [1, 1, 1], "uv": [4, 19]},
+						{"origin": [-4, 6, 6], "size": [1, 1, 1], "uv": [8, 9]},
+						{"origin": [3, 6, 6], "size": [1, 1, 1], "uv": [4, 9]},
+						{"origin": [3, 6, -7], "size": [1, 1, 1], "uv": [0, 9]},
+						{"origin": [4, 0, -7], "size": [1, 8, 1], "uv": [4, 0]},
+						{"origin": [4, 0, 6], "size": [1, 8, 1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

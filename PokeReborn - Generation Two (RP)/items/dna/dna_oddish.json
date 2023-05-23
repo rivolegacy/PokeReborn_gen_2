@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:dna_oddish",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "dna_oddish"
+    }
+  }
+}

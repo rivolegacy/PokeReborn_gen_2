@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:porygon_2_shiny_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "porygon_2_shiny_fainted"
+    }
+  }
+}

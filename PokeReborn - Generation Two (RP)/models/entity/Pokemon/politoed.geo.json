@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.politoed",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Politoed",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Politoed",
+					"pivot": [0, 9, 0],
+					"rotation": [5, 0, 0],
+					"cubes": [
+						{"origin": [-6, 18.02664, -5.51009], "size": [12, 10, 9], "uv": [35, 36]},
+						{"origin": [-6, 22.01903, -8.43578], "size": [12, 10, 12], "pivot": [0, 21.48087, 1.89001], "rotation": [-5, 0, 0], "uv": [0, 0]},
+						{"origin": [-5.5, 31.02664, -7.81009], "size": [11, 2, 11], "pivot": [0, 21.48087, 1.89001], "rotation": [-5, 0, 0], "uv": [37, 11]},
+						{"origin": [-0.5, 33.02664, 0.18991], "size": [1, 6, 1], "pivot": [0, 21.48087, 1.89001], "rotation": [-5, 0, 0], "uv": [4, 4]},
+						{"origin": [-0.5, 38.42664, 1.28991], "size": [1, 6, 1], "pivot": [0, 39.58669, 1.46643], "rotation": [27.5, 0, 0], "uv": [0, 0]},
+						{"origin": [-0.5, 43.62664, -0.81009], "size": [1, 4, 1], "pivot": [0, 43.74578, -0.17734], "rotation": [102.5, 0, 0], "uv": [7, 0]},
+						{"origin": [-0.5, 41.02664, -5.01009], "size": [1, 4, 1], "pivot": [0, 42.10201, -4.33643], "rotation": [-170, 0, 0], "uv": [0, 7]},
+						{"origin": [-0.5, 43.42664, -2.61009], "size": [1, 2, 1], "pivot": [0, 42.10201, -4.33643], "rotation": [-112.5, 0, 0], "uv": [8, 8]},
+						{"origin": [-6.5, 4.02664, -5.51009], "size": [13, 14, 9], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "Left_Leg",
+					"parent": "Politoed",
+					"pivot": [-7, 10, -1],
+					"rotation": [0, 32.5, 0],
+					"cubes": [
+						{"origin": [-8.40976, 0, -7.45586], "size": [4, 2, 6.8], "uv": [14, 47]},
+						{"origin": [-8.40976, 1, -4.45586], "size": [4, 5, 3], "pivot": [-6.40976, 4, -3.45586], "rotation": [17.5, 0, 0], "uv": [42, 55]},
+						{"origin": [-8.40976, 3.8, -2.65586], "size": [4, 8, 3], "pivot": [-6.40976, 8, -1.45586], "rotation": [-40, 0, 0], "uv": [14, 55]}
+					]
+				},
+				{
+					"name": "Left_Leg2",
+					"parent": "Politoed",
+					"pivot": [7, 10, 1],
+					"rotation": [0, -32.5, 0],
+					"cubes": [
+						{"origin": [3.33516, 0, -7.14264], "size": [4, 2, 6.8], "uv": [0, 45]},
+						{"origin": [3.33516, 1, -4.14264], "size": [4, 5, 3], "pivot": [5.33516, 4, -3.14264], "rotation": [17.5, 0, 0], "uv": [28, 55]},
+						{"origin": [3.33516, 3.8, -2.34264], "size": [4, 8, 3], "pivot": [5.33516, 8, -1.14264], "rotation": [-40, 0, 0], "uv": [0, 53]}
+					]
+				},
+				{
+					"name": "Left_Arm",
+					"parent": "Politoed",
+					"pivot": [-5, 20, -4],
+					"cubes": [
+						{"origin": [-15, 18, -6], "size": [13, 3, 3], "pivot": [-6, 18, -6], "rotation": [0, -25, -27.5], "uv": [36, 0]}
+					]
+				},
+				{
+					"name": "Rght_Arm",
+					"parent": "Politoed",
+					"pivot": [5, 20, -4],
+					"cubes": [
+						{"origin": [2, 18, -6], "size": [13, 3, 3], "pivot": [6, 18, -6], "rotation": [0, 25, 27.5], "uv": [35, 24]}
+					]
+				}
+			]
+		}
+	]
+}

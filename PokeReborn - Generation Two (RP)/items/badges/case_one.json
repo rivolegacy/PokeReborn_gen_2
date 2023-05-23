@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:case_one",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "case_one"
+    }
+  }
+}

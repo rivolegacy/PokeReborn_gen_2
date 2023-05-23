@@ -1,0 +1,33 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:lugia_shiny",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/shiny/lugia_shiny",
+            "xd001": "textures/entity/pokemon/shadow/xd001"
+         },
+         "geometry":{
+            "default":"geometry.lugia"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "chill":"animation.lugia.chill",
+            "walk":"animation.lugia.walk",
+            "sit":"animation.lugia.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.xd001"
+         ]
+      }
+   }
+}

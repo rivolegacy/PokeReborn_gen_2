@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:celebi_orb_piece",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "celebi_orb_piece"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+   "format_version":"1.16.100",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:greatball_catching",
+         "materials":{
+            "default":"entity_alphatest"
+         },
+         "textures":{
+            "default":"textures/entity/pokeballs/greatball.png"
+         },
+         "geometry":{
+            "default":"geometry.pokeball_thrown"
+         },
+         "animations":{
+            "idle":"animation.pokeball_catching.idle",
+            "idle_only_controller":"controller.animation.idle_only"
+         },
+         "scripts":{
+            "animate":[
+               "idle_only_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

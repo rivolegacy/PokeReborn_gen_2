@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:super_potion",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "super_potion"
+    }
+  }
+}

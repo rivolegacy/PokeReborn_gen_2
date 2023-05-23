@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:dragon_scale",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "dragon_scale"
+    }
+  }
+}

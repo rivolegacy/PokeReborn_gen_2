@@ -1,0 +1,21 @@
+{
+  "format_version": "1.14",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:moomoo_milk"
+    },
+    "components": {
+      "minecraft:use_duration": 6,
+      "minecraft:max_stack_size": 16,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "poor",
+        "can_always_eat": false,
+        "using_converts_to": "reborn:empty_bottle",
+        "remove_effects": [
+          "poison"
+        ]
+      }
+    }
+  }
+}

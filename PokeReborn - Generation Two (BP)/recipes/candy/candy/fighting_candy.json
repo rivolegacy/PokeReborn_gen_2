@@ -1,0 +1,25 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:fighting_candy"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "###"
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:small_fighting_candy"
+         }
+      },
+      "result":{
+         "item":"reborn:fighting_candy",
+         "count":1
+      }
+   }
+}

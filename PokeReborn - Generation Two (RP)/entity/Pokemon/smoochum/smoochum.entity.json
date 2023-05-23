@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:smoochum",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/pokemon/smoochum"
+         },
+         "geometry":{
+            "default":"geometry.smoochum"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "chill":"animation.smoochum.chill",
+            "walk":"animation.smoochum.walk",
+            "sit":"animation.smoochum.sitting",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.reborn_pokemon"
+         ]
+      }
+   }
+}

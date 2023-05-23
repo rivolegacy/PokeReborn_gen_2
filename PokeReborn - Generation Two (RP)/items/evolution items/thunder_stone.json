@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:thunder_stone",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "thunder_stone"
+    }
+  }
+}

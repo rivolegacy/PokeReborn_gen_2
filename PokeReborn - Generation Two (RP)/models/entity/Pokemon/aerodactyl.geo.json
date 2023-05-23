@@ -1,0 +1,93 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.aerodactyl",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Aerodactyl",
+					"pivot": [0, 3, -4]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Aerodactyl",
+					"pivot": [4, 12, 2],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [3, 3, 1], "size": [1, 1, 3], "uv": [50, 57]},
+						{"origin": [2.75, 4, 0.75], "size": [1.5, 4, 1.5], "uv": [9, 20]},
+						{"origin": [2, 6, -1], "size": [3, 6, 4], "uv": [0, 10]},
+						{"origin": [2.5, 3, -3], "size": [1, 1, 4], "pivot": [3.5, 3, 1], "rotation": [0, 5, 0], "uv": [54, 57]},
+						{"origin": [3.5, 3, -3], "size": [1, 1, 4], "pivot": [3.5, 3, 1], "rotation": [0, -5, 0], "uv": [44, 57]}
+					]
+				},
+				{
+					"name": "Leg3",
+					"parent": "Aerodactyl",
+					"pivot": [-4, 12, 2],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-4, 3, 1], "size": [1, 1, 3], "uv": [0, 51]},
+						{"origin": [-4.25, 4, 0.75], "size": [1.5, 4, 1.5], "uv": [0, 20]},
+						{"origin": [-5, 6, -1], "size": [3, 6, 4], "uv": [0, 0]},
+						{"origin": [-3.5, 3, -3], "size": [1, 1, 4], "pivot": [-3.5, 3, 1], "rotation": [0, -5, 0], "uv": [56, 49]},
+						{"origin": [-4.5, 3, -3], "size": [1, 1, 4], "pivot": [-3.5, 3, 1], "rotation": [0, 5, 0], "uv": [56, 29]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Aerodactyl",
+					"pivot": [0, 11, -2],
+					"cubes": [
+						{"origin": [-4.01, 9.8, -7], "size": [8.02, 6.2, 12], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 28]},
+						{"origin": [-1.01, 15.8, -3], "size": [2.02, 3.2, 3], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 34]},
+						{"origin": [-2.01, 11.5, 4], "size": [4, 4, 8], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [24, 49]},
+						{"origin": [-1.01, 12.5, 12], "size": [2, 3, 5], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 20]},
+						{"origin": [-1.01, 13.5, 17], "size": [2, 2, 6], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [15, 46]},
+						{"origin": [-3.01, 14.5, 23], "size": [6, 0, 6], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [22, 28]},
+						{"origin": [-1.5, 15.39691, -10.17734], "size": [3, 3, 9], "pivot": [0, 16, -6], "rotation": [-82.5, 0, 0], "uv": [0, 46]},
+						{"origin": [-1, 11.8, -2], "size": [2, 2.2, 3], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [50, 28]}
+					]
+				},
+				{
+					"name": "Wing",
+					"parent": "Aerodactyl",
+					"pivot": [4, 16, -5],
+					"cubes": [
+						{"origin": [4.01, 16, -14], "size": [24, 0, 14], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "Wing2",
+					"parent": "Aerodactyl",
+					"pivot": [-4, 16, -5],
+					"cubes": [
+						{"origin": [-28.01, 16, -14], "size": [24, 0, 14], "pivot": [0, 11, -3], "rotation": [-10, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Aerodactyl",
+					"pivot": [0, 19, -6],
+					"cubes": [
+						{"origin": [-2, 20, -8.7], "size": [4, 1, 2], "pivot": [0, 20, -4], "rotation": [15, 0, 0], "uv": [28, 35]},
+						{"origin": [-2, 20, -8.7], "size": [4, 4, 5], "pivot": [0, 20, -4], "rotation": [15, 0, 0], "uv": [50, 35]},
+						{"origin": [-2.5, 20, -14.7], "size": [5, 1, 6], "pivot": [0, 20, -4], "rotation": [15, 0, 0], "uv": [34, 28]},
+						{"origin": [-2.5, 21, -14.7], "size": [5, 3, 11], "pivot": [0, 22, -4], "rotation": [-10, 0, 0], "uv": [29, 35]},
+						{"origin": [-1.5, 20, -15.7], "size": [3, 4, 2], "pivot": [0, 22, -4], "rotation": [-10, 0, 0], "uv": [0, 28]},
+						{"origin": [-2.5, 24, -9.7], "size": [5, 2, 6], "pivot": [0, 22, -4], "rotation": [-10, 0, 0], "uv": [40, 49]},
+						{"origin": [0, 26.06077, -5.00541], "size": [2, 3, 2], "pivot": [0, 26, -4], "rotation": [-10, 0, 32.5], "uv": [0, 58]},
+						{"origin": [-2, 26.06077, -5.00541], "size": [2, 3, 2], "pivot": [0, 26, -4], "rotation": [-10, 0, -32.5], "uv": [0, 46]}
+					]
+				}
+			]
+		}
+	]
+}

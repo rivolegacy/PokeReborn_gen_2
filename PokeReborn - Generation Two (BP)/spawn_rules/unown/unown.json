@@ -1,0 +1,36 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"reborn:unown",
+         "population_control":"monster"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_on_surface":{
+            
+            },
+            "minecraft:weight":{
+               "default":40
+            },
+            "minecraft:density_limit":{
+               "surface":5
+            },
+            "minecraft:permute_type":[
+               {
+                  "weight":9500
+               },
+               {
+                  "weight":2,
+                  "entity_type":"reborn:unown_shiny"
+               }
+            ],
+            "minecraft:biome_filter":{
+               "test":"has_biome_tag",
+               "operator":"==",
+               "value":"the_end"
+            }
+         }
+      ]
+   }
+}

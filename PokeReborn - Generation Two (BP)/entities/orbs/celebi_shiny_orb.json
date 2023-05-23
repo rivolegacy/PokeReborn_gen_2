@@ -1,0 +1,66 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:entity":{
+      "description":{
+         "identifier":"reborn:celebi_shiny_orb",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false
+      },
+      "components":{
+         "minecraft:collision_box":{
+            "height":1,
+            "width":1
+         },
+         "minecraft:health":{
+            "max":1,
+            "value":1
+         },
+         "minecraft:spawn_entity":{
+            "entities":[
+               {
+                  "min_wait_time":1,
+                  "max_wait_time":1,
+                  "spawn_entity":"reborn:celebi_shiny",
+                  "spawn_event":"reborn:from_wild",
+                  "single_use":true,
+                  "num_to_spawn":1,
+                  "should_leash":false
+               }
+            ]
+         },
+         "minecraft:scale":{
+            "value":0.9
+         },
+         "minecraft:movement":{
+            "value":0
+         },
+         "minecraft:physics":{
+            
+         },
+         "minecraft:pushable":{
+            "is_pushable":true,
+            "is_pushable_by_piston":true
+         },
+         "minecraft:navigation.walk":{
+            
+         },
+         "minecraft:movement.basic":{
+            
+         },
+         "minecraft:knockback_resistance":{
+            "max":100,
+            "value":100
+         },
+         "minecraft:type_family":{
+            "family":"orb"
+         },
+         "minecraft:breathable":{
+            "total_supply":2,
+            "suffocate_time":0,
+            "breathes_air":false,
+            "breathes_water":false
+         }
+      }
+   }
+}

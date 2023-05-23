@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "reborn:lorelei_round_two",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

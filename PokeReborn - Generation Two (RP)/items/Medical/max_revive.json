@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:max_revive",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "max_revive"
+    }
+  }
+}

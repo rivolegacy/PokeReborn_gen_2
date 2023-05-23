@@ -1,0 +1,1263 @@
+﻿tile.reborn:healing_machine.name=Healing Machine
+
+
+##Item names
+
+##APRICORNS
+
+item.reborn:white_apricorn.name=White Apricorn
+item.reborn:black_apricorn.name=Black Apricorn
+item.reborn:red_apricorn.name=Red Apricorn
+item.reborn:blue_apricorn.name=Blue Apricorn
+item.reborn:yellow_apricorn.name=Yellow Apricorn
+
+
+
+
+##EVOLUTION ITEMS
+
+item.reborn:thunder_stone.name=Thunder Stone (Evolves certain types of Pokémon)
+item.reborn:water_stone.name=Water Stone (Evolves certain types of Pokémon)
+item.reborn:fire_stone.name=Fire Stone (Evolves certain types of Pokémon)
+item.reborn:leaf_stone.name=Leaf Stone (Evolves certain types of Pokémon)
+item.reborn:moon_stone.name=Moon Stone (Evolves certain types of Pokémon)
+item.reborn:sun_stone.name=Sun Stone (Evolves certain types of Pokémon)
+item.reborn:kings_rock.name=Kings Rock (Evolves certain types of Pokémon)
+item.reborn:metal_coat.name=Metal Coat (Evolves certain types of Pokémon)
+item.reborn:upgrade.name=Upgrade (Evolves Porygon into Porygon 2)
+item.reborn:dragon_scale.name=Dragon Scale (Evolves Seadra into Kingdra)
+item.reborn:poison_barb.name=Poison Barb (Evolves Golbat into Crobat)
+item.reborn:rose_incense.name=Rose Incense (Evolves Eevee into Espeon)
+item.reborn:pure_incense.name=Pure Incense (Evolves Eevee into Umbreon)
+item.reborn:power_band.name=Power Band (Evolves Tyrogue into Hitmontop)
+item.reborn:friendship_crystal.name=friendship Crystal (Evolves Chansey into Blissey)
+
+
+item.reborn:max_revive.name=Max Revive
+
+
+
+
+item.reborn:unpurified_crystal.name=Unpurified Crystal
+item.reborn:empty_bottle.name=Empty Bottle
+item.reborn:moomoo_milk.name=Moomoo Milk
+item.reborn:trainer_card.name=Trainer Card
+item.reborn:small_bug_candy.name=Small Bug Candy
+item.reborn:small_dark_candy.name=Small Dark Candy
+item.reborn:small_dragon_candy.name=Small Dragon Candy
+item.reborn:small_electric_candy.name=Small Electric Candy
+item.reborn:small_fighting_candy.name=Small Fighting Candy
+item.reborn:small_fire_candy.name=Small Fire Candy
+item.reborn:small_flying_candy.name=Small Flying Candy
+item.reborn:small_ghost_candy.name=Small Ghost Candy
+item.reborn:small_grass_candy.name=Small Grass Candy
+item.reborn:small_ground_candy.name=Small Ground Candy
+item.reborn:small_ice_candy.name=Small Ice Candy
+item.reborn:small_normal_candy.name=Small Normal Candy
+item.reborn:small_poison_candy.name=Small Poison Candy
+item.reborn:small_psychic_candy.name=Small Psychic Candy
+item.reborn:small_rock_candy.name=Small Rock Candy
+item.reborn:small_steel_candy.name=Small Steel Candy
+item.reborn:small_water_candy.name=Small Water Candy
+item.reborn:bug_candy.name=Bug Candy
+item.reborn:dark_candy.name=Dark Candy
+item.reborn:dragon_candy.name=Dragon Candy
+item.reborn:electric_candy.name=Electric Candy
+item.reborn:fighting_candy.name=Fighting Candy
+item.reborn:fire_candy.name=Fire Candy
+item.reborn:flying_candy.name=Flying Candy
+item.reborn:ghost_candy.name=Ghost Candy
+item.reborn:grass_candy.name=Grass Candy
+item.reborn:ground_candy.name=Ground Candy
+item.reborn:ice_candy.name=Ice Candy
+item.reborn:normal_candy.name=Normal Candy
+item.reborn:poison_candy.name=Poison Candy
+item.reborn:psychic_candy.name=Psychic Candy
+item.reborn:rock_candy.name=Rock Candy
+item.reborn:steel_candy.name=Steel Candy
+item.reborn:water_candy.name=Water Candy
+item.reborn:bug_candy_xl.name=Bug Candy XL
+item.reborn:dark_candy_xl.name=Dark Candy XL
+item.reborn:dragon_candy_xl.name=Dragon Candy XL
+item.reborn:electric_candy_xl.name=Electric Candy XL
+item.reborn:fighting_candy_xl.name=Fighting Candy XL
+item.reborn:fire_candy_xl.name=Fire Candy XL
+item.reborn:flying_candy_xl.name=Flying Candy XL
+item.reborn:ghost_candy_xl.name=Ghost Candy XL
+item.reborn:grass_candy_xl.name=Grass Candy XL
+item.reborn:ground_candy_xl.name=Ground Candy XL
+item.reborn:ice_candy_xl.name=Ice Candy XL
+item.reborn:normal_candy_xl.name=Normal Candy XL
+item.reborn:poison_candy_xl.name=Poison Candy XL
+item.reborn:psychic_candy_xl.name=Psychic Candy XL
+item.reborn:rock_candy_xl.name=Rock Candy XL
+item.reborn:steel_candy_xl.name=Steel Candy XL
+item.reborn:water_candy_xl.name=Water Candy XL
+item.reborn:potion.name=Potion
+item.reborn:saddle_berry.name=Saddle Berry
+item.reborn:super_potion.name=Super Potion
+item.reborn:hyper_potion.name=Hyper Potion
+item.reborn:max_potion.name=Max Potion
+item.reborn:lure.name=Lure Module
+item.reborn:lure_fire.name=Lure Module (Fire)
+item.reborn:lure_water.name=Lure Module (Water)
+item.reborn:lure_grass.name=Lure Module (Grass)
+
+
+item.reborn:pokecoin.name=Pokécoin
+item.reborn:novice_trainer_card.name=§fNovice Trainer Card
+item.reborn:trainee_trainer_card.name=§eTrainee Trainer Card
+item.reborn:advanced_trainer_card.name=§9Advanced Trainer Card
+item.reborn:super_advanced_trainer_card.name=§aSuper Advanced Trainer Card
+item.reborn:expert_trainer_card.name=§4Expert Trainer Card
+item.reborn:gym_leader_trainer_card.name=§7Gym Leader Trainer Card
+item.reborn:elite4_trainer_card.name=§6Elite 4 Trainer Card
+item.reborn:professor_trainer_card.name=§8Professor Trainer Card
+
+item.reborn:dna_zubat.name=Zubat D.N.A Capsule
+item.reborn:dna_eevee.name=Eevee D.N.A Capsule
+item.reborn:dna_oddish.name=Oddish D.N.A Capsule
+item.reborn:dna_poliwag.name=Poliwag D.N.A Capsule
+item.reborn:dna_slowpoke.name=Slowpoke D.N.A Capsule
+item.reborn:dna_onix.name=Onix D.N.A Capsule
+item.reborn:dna_horsea.name=Horsea D.N.A Capsule
+item.reborn:dna_scyther.name=Scyther D.N.A Capsule
+item.reborn:dna_porygon.name=Porygon D.N.A Capsule
+
+
+
+
+item.reborn:battle_berry.name=Battle Berry
+item.reborn:frenzy_berry.name=Frenzy Berry
+
+item.reborn:celebi_orb_piece.name=Celebi Orb Piece
+
+
+item.reborn:blissey_fainted.name=Fainted blissey
+item.reborn:blissey_shiny_fainted.name=Fainted Shiny blissey
+item.reborn:dunsparce_fainted.name=Fainted dunsparce
+item.reborn:dunsparce_shiny_fainted.name=Fainted Shiny dunsparce
+item.reborn:misdreavus_fainted.name=Fainted misdreavus
+item.reborn:misdreavus_shiny_fainted.name=Fainted Shiny misdreavus
+item.reborn:snubbull_fainted.name=Fainted snubbull
+item.reborn:snubbull_shiny_fainted.name=Fainted Shiny snubbull
+item.reborn:granbull_fainted.name=Fainted granbull
+item.reborn:granbull_shiny_fainted.name=Fainted Shiny granbull
+item.reborn:sunkern_fainted.name=Fainted sunkern
+item.reborn:sunkern_shiny_fainted.name=Fainted Shiny sunkern
+item.reborn:sunflora_fainted.name=Fainted sunflora
+item.reborn:sunflora_shiny_fainted.name=Fainted Shiny sunflora
+item.reborn:unown_fainted.name=Fainted unown
+item.reborn:unown_shiny_fainted.name=Fainted Shiny unown
+item.reborn:wobbuffet_fainted.name=Fainted wobbuffet
+item.reborn:wobbuffet_shiny_fainted.name=Fainted Shiny wobbuffet
+item.reborn:yanma_fainted.name=Fainted yanma
+item.reborn:yanma_shiny_fainted.name=Fainted Shiny yanma
+
+
+
+item.reborn:aipom_fainted.name=Fainted Aipom
+item.reborn:aipom_shiny_fainted.name=Fainted Shiny Aipom
+
+item.reborn:ampharos_fainted.name=Fainted Ampharos
+item.reborn:ampharos_shiny_fainted.name=Fainted Shiny Ampharos
+
+item.reborn:ariados_fainted.name=Fainted Ariados
+item.reborn:ariados_shiny_fainted.name=Fainted Shiny Ariados
+
+item.reborn:azumarill_fainted.name=Fainted Azumarill
+item.reborn:azumarill_shiny_fainted.name=Fainted Shiny Azumarill
+
+item.reborn:bayleef_fainted.name=Fainted Bayleef
+item.reborn:bayleef_shiny_fainted.name=Fainted Shiny Bayleef
+item.reborn:bellossom_fainted.name=Fainted Bellossom
+item.reborn:bellossom_shiny_fainted.name=Fainted Shiny Bellossom
+
+item.reborn:celebi_fainted.name=Fainted Celebi
+item.reborn:celebi_shiny_fainted.name=Fainted Shiny Celebi
+item.reborn:chikorita_fainted.name=Fainted Chikorita
+item.reborn:chikorita_shiny_fainted.name=Fainted Shiny Chikorita
+item.reborn:chinchou_fainted.name=Fainted Chinchou
+item.reborn:chinchou_shiny_fainted.name=Fainted Shiny chinchou
+
+item.reborn:cleffa_fainted.name=Fainted Cleffa
+item.reborn:cleffa_shiny_fainted.name=Fainted Shiny Cleffa
+item.reborn:corsola_fainted.name=Fainted Corsola
+item.reborn:corsola_shiny_fainted.name=Fainted Shiny Corsola
+item.reborn:crobat_fainted.name=Fainted Crobat
+item.reborn:crobat_shiny_fainted.name=Fainted Shiny Crobat
+item.reborn:croconaw_fainted.name=Fainted Croconaw
+item.reborn:croconaw_shiny_fainted.name=Fainted Shiny Croconaw
+item.reborn:cyndaquil_fainted.name=Fainted Cyndaquil
+item.reborn:cyndaquil_shiny_fainted.name=Fainted Shiny Cyndaquil
+item.reborn:delibird_fainted.name=Fainted Delibird
+item.reborn:delibird_shiny_fainted.name=Fainted Shiny Delibird
+item.reborn:donphan_fainted.name=Fainted Donphan
+item.reborn:donphan_shiny_fainted.name=Fainted Shiny Donphan
+
+item.reborn:entei_fainted.name=Fainted Entei
+item.reborn:entei_shiny_fainted.name=Fainted Shiny Entei
+item.reborn:espeon_fainted.name=Fainted Espeon
+item.reborn:espeon_shiny_fainted.name=Fainted Shiny Espeon
+item.reborn:feraligatr_fainted.name=Fainted Feraligatr
+item.reborn:feraligatr_shiny_fainted.name=Fainted Shiny Feraligatr
+item.reborn:flaaffy_fainted.name=Fainted Flaaffy
+item.reborn:flaaffy_shiny_fainted.name=Fainted Shiny Flaaffy
+
+item.reborn:forretress_fainted.name=Fainted Forretress
+item.reborn:forretress_shiny_fainted.name=Fainted Shiny Forretress
+item.reborn:furret_fainted.name=Fainted Furret
+item.reborn:furret_shiny_fainted.name=Fainted Shiny Furret
+item.reborn:girafarig_fainted.name=Fainted Girafarig
+item.reborn:girafarig_shiny_fainted.name=Fainted Shiny Girafarig
+
+item.reborn:gligar_fainted.name=Fainted Gligar
+item.reborn:gligar_shiny_fainted.name=Fainted Shiny Gligar
+
+
+item.reborn:hooh_fainted.name=Fainted Ho-oh
+item.reborn:hooh_shiny_fainted.name=Fainted Shiny Ho-oh
+item.reborn:hoothoot_fainted.name=Fainted Hoothoot
+item.reborn:hoothoot_shiny_fainted.name=Fainted Shiny Hoothoot
+item.reborn:hoppip_fainted.name=Fainted Hoppip
+item.reborn:hoppip_shiny_fainted.name=Fainted Shiny Hoppip
+
+item.reborn:houndoom_fainted.name=Fainted Houndoom
+item.reborn:houndoom_shiny_fainted.name=Fainted Shiny Houndoom
+item.reborn:houndour_fainted.name=Fainted Houndour
+item.reborn:houndour_shiny_fainted.name=Fainted Shiny Houndour
+item.reborn:igglybuff_fainted.name=Fainted Igglybuff
+item.reborn:igglybuff_shiny_fainted.name=Fainted Shiny Igglybuff
+
+item.reborn:jumpluff_fainted.name=Fainted Jumpluff
+item.reborn:jumpluff_shiny_fainted.name=Fainted Shiny Jumpluff
+item.reborn:kingdra_fainted.name=Fainted Kingdra
+item.reborn:kingdra_shiny_fainted.name=Fainted Shiny Kingdra
+item.reborn:lanturn_fainted.name=Fainted Lanturn
+item.reborn:lanturn_shiny_fainted.name=Fainted Shiny Lanturn
+item.reborn:larvitar_fainted.name=Fainted Larvitar
+item.reborn:larvitar_shiny_fainted.name=Fainted Shiny Larvitar
+
+item.reborn:ledian_fainted.name=Fainted Ledian
+item.reborn:ledian_shiny_fainted.name=Fainted Shiny Ledian
+item.reborn:ledyba_fainted.name=Fainted Ledyba
+item.reborn:ledyba_shiny_fainted.name=Fainted Shiny Ledyba
+item.reborn:lugia_fainted.name=Fainted Lugia
+item.reborn:lugia_shiny_fainted.name=Fainted Shiny Lugia
+item.reborn:magby_fainted.name=Fainted Magby
+item.reborn:magby_shiny_fainted.name=Fainted Shiny Magby
+item.reborn:magcargo_fainted.name=Fainted Magcargo
+item.reborn:magcargo_shiny_fainted.name=Fainted Shiny Magcargo
+
+
+
+item.reborn:mantine_fainted.name=Fainted Mantine
+item.reborn:mantine_shiny_fainted.name=Fainted Shiny Mantine
+item.reborn:mantyke_fainted.name=Fainted Mantyke
+item.reborn:mantyke_shiny_fainted.name=Fainted Shiny Mantyke
+item.reborn:mareep_fainted.name=Fainted Mareep
+item.reborn:mareep_shiny_fainted.name=Fainted Shiny Mareep
+item.reborn:marill_fainted.name=Fainted Marill
+item.reborn:marill_shiny_fainted.name=Fainted Shiny Marill
+item.reborn:meganium_fainted.name=Fainted Meganium
+item.reborn:meganium_shiny_fainted.name=Fainted Shiny Meganium
+
+item.reborn:miltank_fainted.name=Fainted Miltank
+item.reborn:miltank_shiny_fainted.name=Fainted Shiny Miltank
+
+item.reborn:murkrow_fainted.name=Fainted Murkrow
+item.reborn:murkrow_shiny_fainted.name=Fainted Shiny Murkrow 
+item.reborn:natu_fainted.name=Fainted Natu
+item.reborn:natu_shiny_fainted.name=Fainted Shiny Natu
+item.reborn:noctowl_fainted.name=Fainted Noctowl
+item.reborn:noctowl_shiny_fainted.name=Fainted Shiny Noctowl
+item.reborn:octillery_fainted.name=Fainted Octillery
+item.reborn:octillery_shiny_fainted.name=Fainted Shiny Octillery
+
+item.reborn:phanpy_fainted.name=Fainted Phanpy
+item.reborn:phanpy_shiny_fainted.name=Fainted Shiny Phanpy
+item.reborn:pichu_fainted.name=Fainted Pichu
+item.reborn:pichu_shiny_fainted.name=Fainted Shiny Pichu
+
+item.reborn:piloswine_fainted.name=Fainted Piloswine
+item.reborn:piloswine_shiny_fainted.name=Fainted Shiny Piloswine
+item.reborn:pineco_fainted.name=Fainted Pineco
+item.reborn:pineco_shiny_fainted.name=Fainted Shiny Pineco
+item.reborn:politoed_fainted.name=Fainted Politoed
+item.reborn:politoed_shiny_fainted.name=Fainted Shiny Politoed
+
+
+item.reborn:porygon_2_fainted.name=Fainted Porygon 2
+item.reborn:porygon_2_shiny_fainted.name=Fainted Shiny Porygon 2
+
+item.reborn:pupitar_fainted.name=Fainted Pupitar
+item.reborn:pupitar_shiny_fainted.name=Fainted Shiny Pupitar
+item.reborn:quagsire_fainted.name=Fainted Quagsire
+item.reborn:quagsire_shiny_fainted.name=Fainted Shiny Quagsire
+item.reborn:quilava_fainted.name=Fainted Quilava
+item.reborn:quilava_shiny_fainted.name=Fainted Shiny Quilava
+item.reborn:qwilfish_fainted.name=Fainted Qwilfish
+item.reborn:qwilfish_shiny_fainted.name=Fainted Shiny Qwilfish
+
+item.reborn:raikou_fainted.name=Fainted Raikou
+item.reborn:raikou_shiny_fainted.name=Fainted Shiny Raikou
+item.reborn:remoraid_fainted.name=Fainted Remoraid
+item.reborn:remoraid_shiny_fainted.name=Fainted Shiny Remoraid
+item.reborn:scizor_fainted.name=Fainted Scizor
+item.reborn:scizor_shiny_fainted.name=Fainted Shiny Scizor
+
+
+item.reborn:sentret_fainted.name=Fainted Sentret
+item.reborn:sentret_shiny_fainted.name=Fainted Shiny Sentret
+
+item.reborn:shuckle_fainted.name=Fainted Shuckle
+item.reborn:shuckle_shiny_fainted.name=Fainted Shiny Shuckle
+item.reborn:skarmory_fainted.name=Fainted Skarmory
+item.reborn:skarmory_shiny_fainted.name=Fainted Shiny Skarmory
+item.reborn:skiploom_fainted.name=Fainted Skiploom
+item.reborn:skiploom_shiny_fainted.name=Fainted Shiny Skiploom
+
+item.reborn:slowking_fainted.name=Fainted Slowking
+item.reborn:slowking_shiny_fainted.name=Fainted Shiny Slowking 
+
+item.reborn:slugma_fainted.name=Fainted Slugma
+item.reborn:slugma_shiny_fainted.name=Fainted Shiny Slugma
+item.reborn:smeargle_fainted.name=Fainted Smeargle
+item.reborn:smeargle_shiny_fainted.name=Fainted Shiny Smeargle
+item.reborn:sneasel_fainted.name=Fainted Sneasel
+item.reborn:sneasel_shiny_fainted.name=Fainted Shiny Sneasel
+
+item.reborn:spinarak_fainted.name=Fainted Spinarak
+item.reborn:spinarak_shiny_fainted.name=Fainted Shiny Spinarak
+item.reborn:stantler_fainted.name=Fainted Stantler
+item.reborn:stantler_shiny_fainted.name=Fainted Shiny Stantler
+item.reborn:steelix_fainted.name=Fainted Steelix
+item.reborn:steelix_shiny_fainted.name=Fainted Shiny Steelix
+item.reborn:sudowoodo_fainted.name=Fainted Sudowoodo
+item.reborn:sudowoodo_shiny_fainted.name=Fainted Shiny Sudowoodo
+item.reborn:suicune_fainted.name=Fainted Suicune
+item.reborn:suicune_shiny_fainted.name=Fainted Shiny Suicune
+item.reborn:swinub_fainted.name=Fainted Swinub
+item.reborn:swinub_shiny_fainted.name=Fainted Shiny Swinub
+
+item.reborn:teddiursa_fainted.name=Fainted Teddiursa
+item.reborn:teddiursa_shiny_fainted.name=Fainted Shiny Teddiursa
+
+item.reborn:togepi_fainted.name=Fainted Togepi
+item.reborn:togepi_shiny_fainted.name=Fainted Shiny Togepi
+item.reborn:togetic_fainted.name=Fainted Togetic
+item.reborn:togetic_shiny_fainted.name=Fainted Shiny Togetic
+item.reborn:totodile_fainted.name=Fainted Totodile
+item.reborn:totodile_shiny_fainted.name=Fainted Shiny Totodile
+item.reborn:typhlosion_fainted.name=Fainted Typhlosion
+item.reborn:typhlosion_shiny_fainted.name=Fainted Shiny Typhlosion
+item.reborn:tyranitar_fainted.name=Fainted Tyranitar
+item.reborn:tyranitar_shiny_fainted.name=Fainted Shiny Tyranitar
+item.reborn:umbreon_fainted.name=Fainted Umbreon
+item.reborn:umbreon_shiny_fainted.name=Fainted Shiny Umbreon
+item.reborn:ursaring_fainted.name=Fainted Ursaring
+item.reborn:ursaring_shiny_fainted.name=Fainted Shiny Ursaring
+
+
+item.reborn:wooper_fainted.name=Fainted Wooper
+item.reborn:wooper_shiny_fainted.name=Fainted Shiny Wooper
+item.reborn:xatu_fainted.name=Fainted Xatu
+item.reborn:xatu_shiny_fainted.name=Fainted Shiny Xatu
+item.reborn:team_mystic.name=Team Mystic Trainer Card
+item.reborn:team_instinct.name=Team Instinct Trainer Card
+item.reborn:team_valor.name=Team Valor Trainer Card
+
+
+
+item.reborn:zephyr_badge.name=Zephyr Badge
+item.reborn:hive_badge.name=Hive Badge
+item.reborn:plain_badge.name=Plain Badge
+item.reborn:fog_badge.name=Fog Badge
+item.reborn:storm_badge.name=Storm Badge
+item.reborn:mineral_badge.name=Mineral Badge
+item.reborn:glacier_badge.name=Glacier Badge
+item.reborn:rising_badge.name=Rising Badge
+item.reborn:second_round_token.name=2nd Round Token
+item.reborn:third_round_token.name=3rd Round Token
+item.reborn:forth_round_token.name=4th Round Token
+item.reborn:empty_case.name=Empty Badge Case
+item.reborn:case_one.name=Case With 1 Badge
+item.reborn:case_two.name=Case With 2 Badges
+item.reborn:case_three.name=Case With 3 Badges
+item.reborn:case_four.name=Case With 4 Badges
+item.reborn:case_five.name=Case With 5 Badges
+item.reborn:case_six.name=Case With 6 Badges
+item.reborn:case_seven.name=Case With 7 Badges
+item.reborn:case_eight.name=Complete Badge Case
+
+item.reborn:smoochum_fainted.name=Fainted Smoochum
+item.reborn:smoochum_shiny_fainted.name=Fainted Shiny Smoochum
+item.reborn:tyrogue_fainted.name=Fainted Tyrogue
+item.reborn:tyrogue_shiny_fainted.name=Fainted Shiny Tyrogue
+item.reborn:hitmontop_fainted.name=Fainted Hitmontop
+item.reborn:hitmontop_shiny_fainted.name=Fainted Shiny Hitmontop
+item.reborn:macho_brace.name=Macho Brace
+item.reborn:heracross_fainted.name=Fainted Heracross
+item.reborn:heracross_shiny_fainted.name=Fainted Shiny Heracross
+item.reborn:elekid_fainted.name=Fainted Elekid
+item.reborn:elekid_shiny_fainted.name=Fainted Shiny Elekid
+
+
+
+##Spawn egg names
+
+
+
+
+
+item.spawn_egg.entity.reborn:dna_machine.name=§7D.N.A Machine
+item.spawn_egg.entity.reborn:chikorita.name=§aChikorita
+item.spawn_egg.entity.reborn:chikorita_shiny.name=§aShiny Chikorita
+item.spawn_egg.entity.reborn:bayleef.name=§aBayleef
+item.spawn_egg.entity.reborn:bayleef_shiny.name=§aShiny Bayleef
+item.spawn_egg.entity.reborn:meganium.name=§aMeganium
+item.spawn_egg.entity.reborn:meganium_shiny.name=§aShiny Meganium
+item.spawn_egg.entity.reborn:cyndaquil.name=§6Cyndaquil
+item.spawn_egg.entity.reborn:cyndaquil_shiny.name=§6Shiny Cyndaquil
+item.spawn_egg.entity.reborn:quilava.name=§6Quilava
+item.spawn_egg.entity.reborn:quilava_shiny.name=§6Shiny Quilava
+item.spawn_egg.entity.reborn:typhlosion.name=§6Typhlosion
+item.spawn_egg.entity.reborn:typhlosion_shiny.name=§6Shiny Typhlosion
+item.spawn_egg.entity.reborn:totodile.name=§9Totodile
+item.spawn_egg.entity.reborn:totodile_shiny.name=§9Shiny Totodile
+item.spawn_egg.entity.reborn:croconaw.name=§9Croconaw
+item.spawn_egg.entity.reborn:croconaw_shiny.name=§9Shiny Croconaw
+item.spawn_egg.entity.reborn:feraligatr.name=§9Feraligatr
+item.spawn_egg.entity.reborn:feraligatr_shiny.name=§9Shiny Feraligatr
+item.spawn_egg.entity.reborn:sentret.name=§7Sentret
+item.spawn_egg.entity.reborn:sentret_shiny.name=§7Shiny Sentret
+item.spawn_egg.entity.reborn:furret.name=§7Furret
+item.spawn_egg.entity.reborn:furret_shiny.name=§7Shiny Furret
+item.spawn_egg.entity.reborn:hoothoot.name=§7Hoothoot
+item.spawn_egg.entity.reborn:hoothoot_shiny.name=§7Shiny Hoothoot
+item.spawn_egg.entity.reborn:noctowl.name=§7Noctowl
+item.spawn_egg.entity.reborn:noctowl_shiny.name=§7Shiny Noctowl
+
+item.spawn_egg.entity.reborn:swinub.name=§bSwinub
+item.spawn_egg.entity.reborn:swinub_shiny.name=§bShiny Swinub
+item.spawn_egg.entity.reborn:piloswine.name=§bPiloswine
+item.spawn_egg.entity.reborn:piloswine_shiny.name=§bShiny Piloswine
+
+item.spawn_egg.entity.reborn:togepi.name=§dTogepi
+item.spawn_egg.entity.reborn:togepi_shiny.name=§dShiny Togepi
+item.spawn_egg.entity.reborn:togetic.name=§dTogetic
+item.spawn_egg.entity.reborn:togetic_shiny.name=§dShiny Togetic
+
+item.spawn_egg.entity.reborn:ledyba.name=§2Ledyba
+item.spawn_egg.entity.reborn:ledyba_shiny.name=§2Shiny Ledyba
+item.spawn_egg.entity.reborn:ledian.name=§2Ledian
+item.spawn_egg.entity.reborn:ledian_shiny.name=§2Shiny Ledian
+item.spawn_egg.entity.reborn:lugia.name=§5Lugia
+item.spawn_egg.entity.reborn:lugia_shiny.name=§5Shiny Lugia
+item.spawn_egg.entity.reborn:lugiaboss.name=§4LUGIA
+item.spawn_egg.entity.reborn:spinarak.name=§5Spinarak
+item.spawn_egg.entity.reborn:spinarak_shiny.name=§5Shiny Spinarak
+item.spawn_egg.entity.reborn:ariados.name=§5Ariados
+item.spawn_egg.entity.reborn:ariados_shiny.name=§5Shiny Ariados
+
+item.spawn_egg.entity.reborn:crobat.name=§5Crobat
+item.spawn_egg.entity.reborn:crobat_shiny.name=§5Shiny Crobat
+item.spawn_egg.entity.reborn:chinchou.name=§9Chinchou
+item.spawn_egg.entity.reborn:chinchou_shiny.name=§9Shiny Chinchou
+item.spawn_egg.entity.reborn:lanturn.name=§9Lanturn
+item.spawn_egg.entity.reborn:lanturn_shiny.name=§9Shiny Lanturn
+item.spawn_egg.entity.reborn:pichu.name=§6Pichu
+item.spawn_egg.entity.reborn:pichu_shiny.name=§6Shiny Pichu
+
+item.spawn_egg.entity.reborn:xd001.name=§6XD001
+item.spawn_egg.entity.reborn:miltank.name=§7Miltank
+item.spawn_egg.entity.reborn:miltank_shiny.name=§7Shiny Miltank
+item.spawn_egg.entity.reborn:houndour.name=§6Houndour
+item.spawn_egg.entity.reborn:houndour_shiny.name=§6Shiny Houndour
+item.spawn_egg.entity.reborn:houndoom.name=§6Houndoom
+item.spawn_egg.entity.reborn:houndoom_shiny.name=§6Shiny Houndoom
+item.spawn_egg.entity.reborn:cleffa.name=§7Cleffa
+item.spawn_egg.entity.reborn:cleffa_shiny.name=§7Shiny Cleffa
+
+item.spawn_egg.entity.reborn:igglybuff.name=§7Igglybuff
+item.spawn_egg.entity.reborn:igglybuff_shiny.name=§7Shiny Igglybuff
+
+item.spawn_egg.entity.reborn:phanpy.name=§8Phanpy
+item.spawn_egg.entity.reborn:phanpy_shiny.name=§8Shiny Phanpy
+item.spawn_egg.entity.reborn:donphan.name=§8Donphan
+item.spawn_egg.entity.reborn:donphan_shiny.name=§8Shiny Donphan
+
+item.spawn_egg.entity.reborn:marill.name=§9Marill
+item.spawn_egg.entity.reborn:marill_shiny.name=§9Shiny Marill
+item.spawn_egg.entity.reborn:azumarill.name=§9Azumarill
+item.spawn_egg.entity.reborn:azumarill_shiny.name=§9Shiny Azumarill
+
+item.spawn_egg.entity.reborn:politoed.name=§9Politoed
+item.spawn_egg.entity.reborn:politoed_shiny.name=§9Shiny Politoed
+item.spawn_egg.entity.reborn:wooper.name=§9Wooper
+item.spawn_egg.entity.reborn:wooper_shiny.name=§9Shiny Wooper
+item.spawn_egg.entity.reborn:quagsire.name=§9Quagsire
+item.spawn_egg.entity.reborn:quagsire_shiny.name=§9Shiny Quagsire
+
+
+item.spawn_egg.entity.reborn:slowking.name=§9Slowking
+item.spawn_egg.entity.reborn:slowking_shiny.name=§9Shiny Slowking
+item.spawn_egg.entity.reborn:qwilfish.name=§9Qwilfish
+item.spawn_egg.entity.reborn:qwilfish_shiny.name=§9Shiny Qwilfish
+
+
+item.spawn_egg.entity.reborn:kingdra.name=§9Kingdra
+item.spawn_egg.entity.reborn:kingdra_shiny.name=§9Shiny Kingdra
+item.spawn_egg.entity.reborn:remoraid.name=§9Remoraid
+item.spawn_egg.entity.reborn:remoraid_shiny.name=§9Shiny Remoraid
+item.spawn_egg.entity.reborn:octillery.name=§9Octillery
+item.spawn_egg.entity.reborn:octillery_shiny.name=§9Shiny Octillery
+item.spawn_egg.entity.reborn:mantyke.name=§9Mantyke
+item.spawn_egg.entity.reborn:mantyke_shiny.name=§9Shiny Mantyke
+item.spawn_egg.entity.reborn:mantine.name=§9Mantine
+item.spawn_egg.entity.reborn:mantine_shiny.name=§9Shiny Mantine
+item.spawn_egg.entity.reborn:corsola.name=§9Corsola
+item.spawn_egg.entity.reborn:corsola_shiny.name=§9Shiny Corsola
+item.spawn_egg.entity.reborn:suicune.name=§9Suicune
+item.spawn_egg.entity.reborn:suicune_shiny.name=§9Shiny Suicune
+item.spawn_egg.entity.reborn:suicuneboss.name=§4SUICUNE
+item.spawn_egg.entity.reborn:pc.name=§4Storage PC
+
+item.spawn_egg.entity.reborn:espeon.name=§5Espeon
+item.spawn_egg.entity.reborn:espeon_shiny.name=§5Shiny Espeon
+item.spawn_egg.entity.reborn:umbreon.name=§8Umbreon
+item.spawn_egg.entity.reborn:umbreon_shiny.name=§8Shiny Umbreon
+
+item.spawn_egg.entity.reborn:natu.name=§5Natu
+item.spawn_egg.entity.reborn:natu_shiny.name=§5Shiny Natu
+item.spawn_egg.entity.reborn:xatu.name=§5Xatu
+item.spawn_egg.entity.reborn:xatu_shiny.name=§5Shiny Xatu
+item.spawn_egg.entity.reborn:mareep.name=§6Mareep
+item.spawn_egg.entity.reborn:mareep_shiny.name=§6Shiny Mareep
+item.spawn_egg.entity.reborn:flaaffy.name=§6Flaaffy
+item.spawn_egg.entity.reborn:flaaffy_shiny.name=§6Shiny Flaaffy
+item.spawn_egg.entity.reborn:ampharos.name=§6Ampharos
+item.spawn_egg.entity.reborn:ampharos_shiny.name=§6Shiny Ampharos
+
+item.spawn_egg.entity.reborn:bellossom.name=§aBellossom
+item.spawn_egg.entity.reborn:bellossom_shiny.name=§aShiny Bellossom
+item.spawn_egg.entity.reborn:pokestop2.name=§9PokéStop
+item.spawn_egg.entity.reborn:pokestopused2.name=§9PokéStop
+
+item.spawn_egg.entity.reborn:sudowoodo.name=§8Sudowoodo
+item.spawn_egg.entity.reborn:sudowoodo_shiny.name=§8Shiny Sudowoodo
+item.spawn_egg.entity.reborn:hoppip.name=§aHoppip
+item.spawn_egg.entity.reborn:hoppip_shiny.name=§aShiny Hoppip
+item.spawn_egg.entity.reborn:skiploom.name=§aSkiploom
+item.spawn_egg.entity.reborn:skiploom_shiny.name=§aShiny Skiploom
+item.spawn_egg.entity.reborn:jumpluff.name=§aJumpluff
+item.spawn_egg.entity.reborn:jumpluff_shiny.name=§aShiny Jumpluff
+item.spawn_egg.entity.reborn:girafarig.name=§6Girafarig
+item.spawn_egg.entity.reborn:girafarig_shiny.name=§6Shiny Girafarig
+item.spawn_egg.entity.reborn:scizor.name=§aScizor
+item.spawn_egg.entity.reborn:scizor_shiny.name=§aShiny Scizor
+
+item.spawn_egg.entity.reborn:stantler.name=§8Stantler
+item.spawn_egg.entity.reborn:stantler_shiny.name=§8Shiny Stantler
+item.spawn_egg.entity.reborn:pineco.name=§aPineco
+item.spawn_egg.entity.reborn:pineco_shiny.name=§aShiny Pineco
+item.spawn_egg.entity.reborn:forretress.name=§aForretress
+item.spawn_egg.entity.reborn:forretress_shiny.name=§aShiny Forretress
+item.spawn_egg.entity.reborn:teddiursa.name=§7Teddiursa
+item.spawn_egg.entity.reborn:teddiursa_shiny.name=§7Shiny Teddiursa
+item.spawn_egg.entity.reborn:ursaring.name=§7Ursaring
+item.spawn_egg.entity.reborn:ursaring_shiny.name=§7Shiny Ursaring
+item.spawn_egg.entity.reborn:aipom.name=§7Aipom
+item.spawn_egg.entity.reborn:aipom_shiny.name=§7Shiny Aipom
+
+item.spawn_egg.entity.reborn:murkrow.name=§8Murkrow
+item.spawn_egg.entity.reborn:murkrow_shiny.name=§8Shiny Murkrow
+
+item.spawn_egg.entity.reborn:gligar.name=§8Gligar
+item.spawn_egg.entity.reborn:gligar_shiny.name=§8Shiny Gligar
+
+item.spawn_egg.entity.reborn:smeargle.name=§7Smeargle
+item.spawn_egg.entity.reborn:smeargle_shiny.name=§7Shiny Smeargle
+item.spawn_egg.entity.reborn:healing_machine.name=§7Healing Machine
+item.spawn_egg.entity.reborn:bike.name=§7Acro Bike
+
+item.spawn_egg.entity.reborn:delibird.name=§bDelibird
+item.spawn_egg.entity.reborn:delibird_shiny.name=§bShiny Delibird
+
+item.spawn_egg.entity.reborn:larvitar.name=§8Larvitar
+item.spawn_egg.entity.reborn:larvitar_shiny.name=§8Shiny Larvitar 
+item.spawn_egg.entity.reborn:pupitar.name=§8Pupitar
+item.spawn_egg.entity.reborn:pupitar_shiny.name=§8Shiny Pupitar 
+item.spawn_egg.entity.reborn:tyranitar.name=§8Tyranitar
+item.spawn_egg.entity.reborn:tyranitar_shiny.name=§8Shiny Tyranitar 
+item.spawn_egg.entity.reborn:magby.name=§6Magby
+item.spawn_egg.entity.reborn:magby_shiny.name=§6Shiny Magby 
+
+item.spawn_egg.entity.reborn:slugma.name=§6Slugma
+item.spawn_egg.entity.reborn:slugma_shiny.name=§6Shiny Slugma 
+item.spawn_egg.entity.reborn:magcargo.name=§6Magcargo
+item.spawn_egg.entity.reborn:magcargo_shiny.name=§6Shiny Magcargo 
+
+item.spawn_egg.entity.reborn:steelix.name=§8Steelix
+item.spawn_egg.entity.reborn:steelix_shiny.name=§8Shiny Steelix
+
+item.spawn_egg.entity.reborn:porygon2.name=§7Porygon 2
+item.spawn_egg.entity.reborn:porygon2_shiny.name=§7Shiny Porygon 2
+
+item.spawn_egg.entity.reborn:shuckle.name=§8Shuckle
+item.spawn_egg.entity.reborn:shuckle_shiny.name=§8Shiny Shuckle 
+item.spawn_egg.entity.reborn:skarmory.name=§8Skarmory
+item.spawn_egg.entity.reborn:skarmory_shiny.name=§8Shiny Skarmory 
+item.spawn_egg.entity.reborn:sneasel.name=§bSneasel
+item.spawn_egg.entity.reborn:sneasel_shiny.name=§bShiny Sneasel 
+ 
+item.spawn_egg.entity.reborn:hooh.name=§6Ho-oh
+item.spawn_egg.entity.reborn:hooh_shiny.name=§6Shiny Ho-oh 
+item.spawn_egg.entity.reborn:entei.name=§6Entei
+item.spawn_egg.entity.reborn:entei_shiny.name=§6Shiny Entei
+item.spawn_egg.entity.reborn:raikou.name=§6Raikou
+item.spawn_egg.entity.reborn:raikou_shiny.name=§6Shiny Raikou
+item.spawn_egg.entity.reborn:celebi.name=§aCelebi
+item.spawn_egg.entity.reborn:celebi_shiny.name=§aShiny Celebi
+
+
+item.spawn_egg.entity.reborn:celebi_orb.name=§aCelebi Orb
+
+item.spawn_egg.entity.reborn:celebi_shiny_orb.name=§aShiny Celebi Orb
+
+item.spawn_egg.entity.reborn:bag.name=§7Pokémon Bag
+
+item.spawn_egg.entity.clear:trainer_falkner.name=§7Falkner
+item.spawn_egg.entity.clear:trainer_bugsy.name=§7Bugsy
+item.spawn_egg.entity.clear:trainer_whitney.name=§7Whitney
+item.spawn_egg.entity.clear:trainer_morty.name=§7Morty
+item.spawn_egg.entity.clear:trainer_chuck.name=§7Chuck
+item.spawn_egg.entity.clear:trainer_jasmine.name=§7Jasmine
+item.spawn_egg.entity.clear:trainer_pryce.name=§7Pryce
+item.spawn_egg.entity.clear:trainer_clair.name=§7Clair
+item.spawn_egg.entity.reborn:smoochum.name=§bSmoochum
+item.spawn_egg.entity.reborn:smoochum_shiny.name=§bShiny Smoochum
+item.spawn_egg.entity.reborn:tyrogue.name=§8Tyrouge
+item.spawn_egg.entity.reborn:tyrogue_shiny.name=§8Shiny Tyrogue
+item.spawn_egg.entity.reborn:hitmontop.name=§8Hitmontop
+item.spawn_egg.entity.reborn:hitmontop_shiny.name=§8Shiny Hitmontop
+item.spawn_egg.entity.reborn:heracross.name=§8Heracross
+item.spawn_egg.entity.reborn:heracross_shiny.name=§8Shiny Heracross
+item.spawn_egg.entity.reborn:elekid.name=§8Elekid
+item.spawn_egg.entity.reborn:elekid_shiny.name=§8Shiny Elekid
+
+
+
+
+
+##Entity names
+
+
+
+
+
+entity.reborn:elekid.name=§8Elekid
+entity.reborn:elekid_ball.name=§8Elekid
+entity.reborn:elekid_wild.name=§8Elekid
+entity.reborn:elekid_shiny.name=§8Shiny Elekid
+entity.reborn:elekid_shiny_ball.name=§8Shiny Elekid
+entity.reborn:elekid_shiny_wild.name=§8Shiny Elekid
+entity.reborn:heracross.name=§8Heracross
+entity.reborn:heracross_ball.name=§8Heracross
+entity.reborn:heracross_wild.name=§8Heracross
+entity.reborn:heracross_shiny.name=§8Shiny Heracross
+entity.reborn:heracross_shiny_ball.name=§8Shiny Heracross
+entity.reborn:heracross_shiny_wild.name=§8Shiny Heracross
+entity.reborn:tyrogue.name=§8Tyrouge
+entity.reborn:tyrogue_ball.name=§8Tyrouge
+entity.reborn:tyrogue_wild.name=§8Tyrouge
+entity.reborn:tyrogue_shiny.name=§8Shiny Tyrogue
+entity.reborn:tyrogue_shiny_ball.name=§8Shiny Tyrogue
+entity.reborn:tyrogue_shiny_wild.name=§8Shiny Tyrogue
+entity.reborn:hitmontop.name=§8Hitmontop
+entity.reborn:hitmontop_ball.name=§8Hitmontop
+entity.reborn:hitmontop_shiny.name=§8Shiny Hitmontop
+entity.reborn:hitmontop_shiny_ball.name=§8Shiny Hitmontop
+entity.reborn:smoochum.name=§bSmoochum
+entity.reborn:smoochum_wild.name=§bSmoochum
+entity.reborn:smoochum_ball.name=§bSmoochum
+entity.reborn:smoochum_shiny.name=§bShiny Smoochum
+entity.reborn:smoochum_shiny_ball.name=§bShiny Smoochum
+entity.reborn:smoochum_shiny_wild.name=§bShiny Smoochum
+
+
+entity.reborn:celebi_orb.name=§aCelebi Orb
+
+entity.reborn:celebi.name=§aCelebi
+entity.reborn:celebi_ball.name=§aCelebi
+entity.reborn:celebi_shiny.name=§aCelebi
+entity.reborn:celebi_shiny_ball.name=§aCelebi
+entity.reborn:raikou.name=§6Raikou
+entity.reborn:raikou_ball.name=§6Raikou
+entity.reborn:raikou_shiny.name=§6Raikou
+entity.reborn:raikou_shiny_ball.name=§6Raikou
+entity.reborn:raikou_boss.name=§4RAIKOU
+entity.reborn:entei.name=§6Entei
+entity.reborn:entei_boss.name=§6Entei
+entity.reborn:entei_shiny.name=§6Entei
+entity.reborn:entei_shiny_ball.name=§6Entei
+entity.reborn:entei_boss.name=§4ENTEI
+entity.reborn:hooh.name=§6Ho-oh
+entity.reborn:hooh_ball.name=§6Ho-oh
+entity.reborn:hooh_shiny.name=§6Ho-oh 
+entity.reborn:hooh_shiny_ball.name=§6Ho-oh
+entity.reborn:hooh_boss.name=§4HO-OH
+
+entity.reborn:sneasel.name=§bSneasel
+entity.reborn:sneasel_ball.name=§bSneasel
+entity.reborn:sneasel_wild.name=§bSneasel
+entity.reborn:sneasel_shiny.name=§bShiny Sneasel 
+entity.reborn:sneasel_shiny_ball.name=§bShiny Sneasel 
+entity.reborn:sneasel_shiny_wild.name=§bShiny Sneasel 
+
+entity.reborn:skarmory.name=§8Skarmory
+entity.reborn:skarmory_ball.name=§8Skarmory
+entity.reborn:skarmory_wild.name=§8Skarmory
+entity.reborn:skarmory_shiny.name=§8Shiny Skarmory
+entity.reborn:skarmory_shiny_ball.name=§8Shiny Skarmory
+entity.reborn:skarmory_shiny_wild.name=§8Shiny Skarmory
+entity.reborn:shuckle.name=§8Shuckle
+entity.reborn:shuckle_ball.name=§8Shuckle
+entity.reborn:shuckle_wild.name=§8Shuckle
+entity.reborn:shuckle_shiny.name=§8Shiny Shuckle 
+entity.reborn:shuckle_shiny_ball.name=§8Shiny Shuckle 
+entity.reborn:shuckle_shiny_wild.name=§8Shiny Shuckle 
+
+entity.reborn:porygon2.name=§7Porygon 2
+entity.reborn:porygon2_ball.name=§7Porygon 2
+entity.reborn:porygon2_shiny.name=§7Shiny Porygon 2
+entity.reborn:porygon2_shiny_ball.name=§7Shiny Porygon 2
+
+
+entity.reborn:steelix.name=§8Steelix
+entity.reborn:steelix_ball.name=§8Steelix
+entity.reborn:steelix_shiny.name=§8Shiny Steelix
+entity.reborn:steelix_shiny_ball.name=§8Shiny Steelix
+entity.reborn:slugma.name=§6Slugma
+entity.reborn:slugma_ball.name=§6Slugma
+entity.reborn:slugma_wild.name=§6Slugma
+entity.reborn:slugma_shiny.name=§6Shiny Slugma 
+entity.reborn:slugma_shiny_ball.name=§6Shiny Slugma
+entity.reborn:slugma_shiny_wild.name=§6Shiny Slugma
+entity.reborn:magcargo.name=§6Magcargo
+entity.reborn:magcargo_ball.name=§6Magcargo
+entity.reborn:magcargo_shiny.name=§6Shiny Magcargo 
+entity.reborn:magcargo_shiny_ball.name=§6Shiny Magcargo 
+entity.reborn:magby.name=§6Magby
+entity.reborn:magby_ball.name=§6Magby
+entity.reborn:magby_wild.name=§6Magby
+entity.reborn:magby_shiny.name=§6Shiny Magby 
+entity.reborn:magby_shiny_ball.name=§6Shiny Magby 
+entity.reborn:magby_shiny_wild.name=§6Shiny Magby 
+
+entity.reborn:tyranitar.name=§8Tyranitar
+entity.reborn:tyranitar_ball.name=§8Tyranitar
+entity.reborn:tyranitar_shiny.name=§8Shiny Tyranitar 
+entity.reborn:tyranitar_shiny_ball.name=§8Shiny Tyranitar 
+entity.reborn:pupitar.name=§8Pupitar
+entity.reborn:pupitar_ball.name=§8Pupitar
+entity.reborn:pupitar_shiny.name=§8Shiny Pupitar 
+entity.reborn:pupitar_shiny_ball.name=§8Shiny Pupitar 
+entity.reborn:larvitar.name=§8Larvitar
+entity.reborn:larvitar_ball.name=§8Larvitar
+entity.reborn:larvitar_wild.name=§8Larvitar
+entity.reborn:larvitar_shiny.name=§8Shiny Larvitar 
+entity.reborn:larvitar_shiny_ball.name=§8Shiny Larvitar 
+entity.reborn:larvitar_shiny_wild.name=§8Shiny Larvitar 
+
+entity.reborn:delibird.name=§bDelibird
+entity.reborn:delibird_ball.name=§bDelibird
+entity.reborn:delibird_wild.name=§bDelibird
+entity.reborn:delibird_shiny.name=§bShiny Delibird
+entity.reborn:delibird_shiny_ball.name=§bShiny Delibird
+entity.reborn:delibird_shiny_wild.name=§bShiny Delibird
+
+entity.reborn:bike.name=§7Acro Bike
+entity.reborn:smeargle.name=§7Smeargle
+entity.reborn:smeargle_ball.name=§7Smeargle
+entity.reborn:smeargle_wild.name=§7A Wild Smeargle
+entity.reborn:smeargle_shiny.name=§7Shiny Smeargle
+entity.reborn:smeargle_shiny_ball.name=§7Shiny Smeargle
+entity.reborn:smeargle_shiny_wild.name=§7A Wild Smeargle
+
+entity.reborn:gligar.name=§8Gligar
+entity.reborn:gligar_ball.name=§8Gligar
+entity.reborn:gligar_wild.name=§8A Wild Gligar
+entity.reborn:gligar_shiny.name=§8Shiny Gligar
+entity.reborn:gligar_shiny_ball.name=§8Shiny Gligar
+entity.reborn:gligar_shiny_wild.name=§8A Wild Gligar
+
+entity.reborn:murkrow.name=§8Murkrow
+entity.reborn:murkrow_ball.name=§8Murkrow
+entity.reborn:murkrow_wild.name=§8A Wild Murkrow
+entity.reborn:murkrow_shiny.name=§8Shiny Murkrow
+entity.reborn:murkrow_shiny_ball.name=§8Shiny Murkrow
+entity.reborn:murkrow_shiny_wild.name=§8A Wild Murkrow
+
+entity.reborn:aipom.name=§7Aipom
+entity.reborn:aipom_ball.name=§7Aipom
+entity.reborn:aipom_wild.name=§7A Wild Aipom
+entity.reborn:aipom_shiny.name=§7Shiny Aipom
+entity.reborn:aipom_shiny_ball.name=§7Shiny Aipom
+entity.reborn:aipom_shiny_wild.name=§7A Wild Aipom
+entity.reborn:ursaring.name=§7Ursaring
+entity.reborn:ursaring_ball.name=§7Ursaring
+entity.reborn:ursaring_shiny.name=§7Shiny Ursaring
+entity.reborn:ursaring_shiny_ball.name=§7Shiny Ursaring
+entity.reborn:teddiursa.name=§7Teddiursa
+entity.reborn:teddiursa_ball.name=§7Teddiursa
+entity.reborn:teddiursa_wild.name=§7A Wild Teddiursa
+entity.reborn:teddiursa_shiny.name=§7Shiny Teddiursa
+entity.reborn:teddiursa_shiny_ball.name=§7Shiny Teddiursa
+entity.reborn:teddiursa_shiny_wild.name=§7A Wild Teddiursa
+entity.reborn:forretress.name=§aForretress
+entity.reborn:forretress_ball.name=§aForretress
+entity.reborn:forretress_shiny.name=§aShiny Forretress
+entity.reborn:forretress_shiny_ball.name=§aShiny Forretress
+entity.reborn:pineco.name=§aPineco
+entity.reborn:pineco_wild.name=§aA Wild Pineco
+entity.reborn:pineco_ball.name=§aPineco
+entity.reborn:pineco_shiny.name=§aShiny Pineco
+entity.reborn:pineco_shiny_wild.name=§aA Wild Pineco
+entity.reborn:pineco_shiny_ball.name=§aShiny Pineco
+entity.reborn:jumpluff.name=§aJumpluff
+entity.reborn:jumpluff_ball.name=§aJumpluff
+entity.reborn:jumpluff_shiny.name=§aShiny Jumpluff
+entity.reborn:jumpluff_shiny_ball.name=§aShiny Jumpluff
+entity.reborn:skiploom.name=§aSkiploom
+entity.reborn:skiploom_ball.name=§aSkiploom
+entity.reborn:skiploom_shiny.name=§aShiny Skiploom
+entity.reborn:skiploom_shiny_ball.name=§aShiny Skiploom
+entity.reborn:hoppip.name=§aHoppip
+entity.reborn:hoppip_ball.name=§aHoppip
+entity.reborn:hoppip_wild.name=§aA Wild Hoppip
+entity.reborn:hoppip_shiny.name=§aShiny Hoppip
+entity.reborn:hoppip_shiny_ball.name=§aShiny Hoppip
+entity.reborn:hoppip_shiny_wild.name=§aA Wild Hoppip
+
+entity.reborn:sudowoodo.name=§8Sudowoodo
+entity.reborn:sudowoodo_ball.name=§8Sudowoodo
+entity.reborn:sudowoodo_shiny.name=§8Shiny Sudowoodo
+entity.reborn:sudowoodo_shiny_ball.name=§8Shiny Sudowoodo
+entity.reborn:pokestop2.name=§9PokéStop
+entity.reborn:pokestopused2.name=§9PokéStop
+
+entity.reborn:bellossom.name=§aBellossom
+entity.reborn:bellossom_ball.name=§aBellossom
+entity.reborn:bellossom_shiny.name=§aShiny Bellossom
+entity.reborn:bellossom_shiny_ball.name=§aShiny Bellossom
+entity.reborn:chikorita.name=§aChikorita
+entity.reborn:chikorita_ball.name=§aChikorita
+entity.reborn:chikorita_shiny.name=§aShiny Chikorita
+entity.reborn:chikorita_shiny_ball.name=§aShiny Chikorita
+entity.reborn:chikorita_wild.name=§aA Wild Chikorita
+entity.reborn:chikorita_shiny_wild.name=§aA Wild Chikorita
+entity.reborn:bayleef.name=§aBayleef
+entity.reborn:bayleef_ball.name=§aBayleef
+entity.reborn:bayleef_shiny.name=§aShiny Bayleef
+entity.reborn:bayleef_shiny_ball.name=§aShiny Bayleef
+entity.reborn:meganium.name=§aMeganium
+entity.reborn:meganium_ball.name=§aMeganium
+entity.reborn:meganium_shiny.name=§aShiny Meganium
+entity.reborn:meganium_shiny_ball.name=§aShiny Meganium
+entity.reborn:cyndaquil.name=§6Cyndaquil
+entity.reborn:cyndaquil_ball.name=§6Cyndaquil
+entity.reborn:cyndaquil_shiny.name=§6Shiny Cyndaquil
+entity.reborn:cyndaquil_shiny_ball.name=§6Shiny Cyndaquil
+entity.reborn:cyndaquil_wild.name=§6A Wild Cyndaquil
+entity.reborn:cyndaquil_shiny_wild.name=§6A Wild Cyndaquil
+entity.reborn:quilava.name=§6Quilava
+entity.reborn:quilava_ball.name=§6Quilava
+entity.reborn:quilava_shiny.name=§6Shiny Quilava
+entity.reborn:quilava_shiny_ball.name=§6Shiny Quilava
+entity.reborn:typhlosion.name=§6Typhlosion
+entity.reborn:typhlosion_ball.name=§6Typhlosion
+entity.reborn:typhlosion_shiny.name=§6Shiny Typhlosion
+entity.reborn:typhlosion_shiny_ball.name=§6Shiny Typhlosion
+entity.reborn:totodile.name=§9Totodile
+entity.reborn:totodile_ball.name=§9Totodile
+entity.reborn:totodile_shiny.name=§9Shiny Totodile
+entity.reborn:totodile_shiny_ball.name=§9Shiny Totodile
+entity.reborn:totodile_wild.name=§9A Wild Totodile
+entity.reborn:totodile_shiny_wild.name=§9A Wild Totodile
+entity.reborn:croconaw.name=§9Croconaw
+entity.reborn:croconaw_ball.name=§9Croconaw
+entity.reborn:croconaw_shiny.name=§9Shiny Croconaw
+entity.reborn:croconaw_shiny_ball.name=§9Shiny Croconaw
+entity.reborn:feraligatr.name=§9Feraligatr
+entity.reborn:feraligatr_ball.name=§9Feraligatr
+entity.reborn:feraligatr_shiny.name=§9Shiny Feraligatr
+entity.reborn:feraligatr_shiny_ball.name=§9Shiny Feraligatr
+entity.reborn:sentret.name=§7Sentret
+entity.reborn:sentret_ball.name=§7Sentret
+entity.reborn:sentret_shiny.name=§7Shiny Sentret
+entity.reborn:sentret_shiny_ball.name=§7Shiny Sentret
+entity.reborn:sentret_wild.name=§7A Wild Sentret
+entity.reborn:sentret_shiny_wild.name=§7A Wild Sentret
+entity.reborn:furret.name=§7Furret
+entity.reborn:furret_ball.name=§7Furret
+entity.reborn:furret_shiny.name=§7Shiny Furret
+entity.reborn:furret_shiny_ball.name=§7Shiny Furret
+entity.reborn:hoothoot.name=§7Hoothoot
+entity.reborn:hoothoot_ball.name=§7Hoothoot
+entity.reborn:hoothoot_shiny.name=§7Shiny Hoothoot
+entity.reborn:hoothoot_shiny_ball.name=§7Shiny Hoothoot
+entity.reborn:hoothoot_wild.name=§7A Wild Hoothoot
+entity.reborn:hoothoot_shiny_wild.name=§7A Wild Hoothoot
+entity.reborn:noctowl.name=§7Noctowl
+entity.reborn:noctowl_egg.name=§7Noctowl
+entity.reborn:noctowl_shiny.name=§7Shiny Noctowl
+entity.reborn:noctowl_shiny_ball.name=§7Shiny Noctowl
+
+entity.reborn:swinub.name=§bSwinub
+entity.reborn:swinub_ball.name=§bSwinub
+entity.reborn:swinub_shiny.name=§bShiny Swinub
+entity.reborn:swinub_shiny_ball.name=§bShiny Swinub
+entity.reborn:swinub_wild.name=§bA Wild Swinub
+entity.reborn:swinub_shiny_wild.name=§bA Wild Swinub
+entity.reborn:piloswine.name=§bPiloswine
+entity.reborn:piloswine_ball.name=§bPiloswine
+entity.reborn:piloswine_shiny.name=§bShiny Piloswine
+entity.reborn:piloswine_shiny_ball.name=§bShiny Piloswine
+
+entity.reborn:togepi.name=§dTogepi
+entity.reborn:togepi_ball.name=§dTogepi
+entity.reborn:togepi_shiny.name=§dShiny Togepi
+entity.reborn:togepi_shiny_ball.name=§dShiny Togepi
+entity.reborn:togepi_wild.name=§dA Wild Togepi
+entity.reborn:togepi_shiny_wild.name=§dA Wild Togepi
+entity.reborn:togetic.name=§dTogetic
+entity.reborn:togetic_ball.name=§dTogetic
+entity.reborn:togetic_shiny.name=§dShiny Togetic
+entity.reborn:togetic_shiny_ball.name=§dShiny Togetic
+
+entity.reborn:ledyba.name=§2Ledyba
+entity.reborn:ledyba_ball.name=§2Ledyba
+entity.reborn:ledyba_shiny.name=§2Shiny Ledyba
+entity.reborn:ledyba_shiny_ball.name=§2Shiny Ledyba
+entity.reborn:ledyba_wild.name=§2A Wild Ledyba
+entity.reborn:ledyba_shiny_wild.name=§2A Wild Ledyba
+entity.reborn:ledian.name=§2Ledian
+entity.reborn:ledian_ball.name=§2Ledian
+entity.reborn:ledian_shiny.name=§2Shiny Ledian
+entity.reborn:ledian_shiny_ball.name=§2Shiny Ledian
+entity.reborn:lugia.name=§5Lugia
+entity.reborn:lugia_ball.name=§5Lugia
+entity.reborn:lugia_shiny.name=§5Shiny Lugia
+entity.reborn:lugia_shiny_ball.name=§5Shiny Lugia
+entity.reborn:lugiaboss.name=§4LUGIA
+entity.reborn:spinarak.name=§5Spinarak
+entity.reborn:spinarak_ball.name=§5Spinarak
+entity.reborn:spinarak_shiny.name=§5Shiny Spinarak
+entity.reborn:spinarak_shiny_ball.name=§5Shiny Spinarak
+entity.reborn:spinarak_wild.name=§5A Wild Spinarak
+entity.reborn:spinarak_shiny_wild.name=§5A Wild Spinarak
+entity.reborn:ariados.name=§5Ariados
+entity.reborn:ariados_ball.name=§5Ariados
+entity.reborn:ariados_shiny.name=§5Shiny Ariados
+entity.reborn:ariados_shiny_ball.name=§5Shiny Ariados
+
+entity.reborn:crobat.name=§5Crobat
+entity.reborn:crobat_ball.name=§5Crobat
+entity.reborn:crobat_shiny.name=§5Shiny Crobat
+entity.reborn:crobat_shiny_ball.name=§5Shiny Crobat
+entity.reborn:chinchou.name=§9Chinchou
+entity.reborn:chinchou_ball.name=§9Chinchou
+entity.reborn:chinchou_shiny.name=§9Shiny Chinchou
+entity.reborn:chinchou_shiny_ball.name=§9Shiny Chinchou
+entity.reborn:chinchou_wild.name=§9A Wild Chinchou
+entity.reborn:chinchou_shiny_wild.name=§9A Wild Chinchou
+entity.reborn:lanturn.name=§9Lanturn
+entity.reborn:lanturn_ball.name=§9Lanturn
+entity.reborn:lanturn_shiny.name=§9Shiny Lanturn
+entity.reborn:lanturn_shiny_ball.name=§9Shiny Lanturn
+entity.reborn:pichu.name=§6Pichu
+entity.reborn:pichu_ball.name=§6Pichu
+entity.reborn:pichu_shiny.name=§6Shiny Pichu
+entity.reborn:pichu_shiny_ball.name=§6Shiny Pichu
+entity.reborn:pichu_wild.name=§6A Wild Pichu
+entity.reborn:pichu_shiny_wild.name=§6A Wild Pichu
+
+entity.reborn:xd001.name=§6XD001
+entity.reborn:xd001_ball.name=§6XD001
+entity.reborn:miltank.name=§7Miltank
+entity.reborn:miltank_ball.name=§7Miltank
+entity.reborn:miltank_shiny.name=§7Shiny Miltank
+entity.reborn:miltank_shiny_ball.name=§7Shiny Miltank
+entity.reborn:miltank_wild.name=§7A Wild Miltank
+entity.reborn:miltank_shiny_wild.name=§7A Wild Miltank
+entity.reborn:houndour.name=§6Houndour
+entity.reborn:houndour_ball.name=§6Houndour
+entity.reborn:houndour_shiny.name=§6Shiny Houndour
+entity.reborn:houndour_shiny_ball.name=§6Shiny Houndour
+entity.reborn:houndour_wild.name=§6A Wild Houndour
+entity.reborn:houndour_shiny_wild.name=§6A Wild Houndour
+entity.reborn:houndoom.name=§6Houndoom
+entity.reborn:houndoom_ball.name=§6Houndoom
+entity.reborn:houndoom_shiny.name=§6Shiny Houndoom
+entity.reborn:houndoom_shiny_ball.name=§6Shiny Houndoom
+entity.reborn:cleffa.name=§7Cleffa
+entity.reborn:cleffa_ball.name=§7Cleffa
+entity.reborn:cleffa_shiny.name=§7Shiny Cleffa
+entity.reborn:cleffa_shiny_ball.name=§7Shiny Cleffa
+entity.reborn:cleffa_wild.name=§7A Wild Cleffa
+entity.reborn:cleffa_shiny_wild.name=§7A Wild Cleffa
+
+entity.reborn:igglybuff.name=§7Igglybuff
+entity.reborn:igglybuff_ball.name=§7Igglybuff
+entity.reborn:igglybuff_shiny.name=§7Shiny Igglybuff
+entity.reborn:igglybuff_shiny_ball.name=§7Shiny Igglybuff
+entity.reborn:igglybuff_wild.name=§7A Wild Igglybuff
+entity.reborn:igglybuff_shiny_wild.name=§7A Wild Igglybuff
+
+entity.reborn:shop2.name=Sales Assistant
+entity.reborn:phanpy.name=§8Phanpy
+entity.reborn:phanpy_ball.name=§8Phanpy
+entity.reborn:phanpy_shiny.name=§8Shiny Phanpy
+entity.reborn:phanpy_shiny_ball.name=§8Shiny Phanpy
+entity.reborn:phanpy_wild.name=§8A Wild Phanpy
+entity.reborn:phanpy_shiny_wild.name=§8A Wild Phanpy
+entity.reborn:donphan.name=§8Donphan
+entity.reborn:donphan_ball.name=§8Donphan
+entity.reborn:donphan_shiny.name=§8Shiny Donphan
+entity.reborn:donphan_shiny_ball.name=§8Shiny Donphan
+
+entity.reborn:marill.name=§9Marill
+entity.reborn:marill_ball.name=§9Marill
+entity.reborn:marill_shiny.name=§9Shiny Marill
+entity.reborn:marill_shiny_ball.name=§9Shiny Marill
+entity.reborn:azumarill.name=§9Azumarill
+entity.reborn:azumarill_ball.name=§9Azumarill
+entity.reborn:azumarill_shiny.name=§9Shiny Azumarill
+entity.reborn:azumarill_shiny_ball.name=§9Shiny Azumarill
+
+entity.reborn:politoed.name=§9Politoed
+entity.reborn:politoed_ball.name=§9Politoed
+entity.reborn:politoed_shiny.name=§9Shiny Politoed
+entity.reborn:politoed_shiny_ball.name=§9Shiny Politoed
+entity.reborn:wooper.name=§9Wooper
+entity.reborn:wooper_ball.name=§9Wooper
+entity.reborn:wooper_shiny.name=§9Shiny Wooper
+entity.reborn:wooper_shiny_ball.name=§9Shiny Wooper
+entity.reborn:quagsire.name=§9Quagsire
+entity.reborn:quagsire_ball.name=§9Quagsire
+entity.reborn:quagsire_shiny.name=§9Shiny Quagsire
+entity.reborn:quagsire_shiny_ball.name=§9Shiny Quagsire
+
+entity.reborn:slowking.name=§9Slowking
+entity.reborn:slowking_ball.name=§9Slowking
+entity.reborn:slowking_shiny.name=§9Shiny Slowking
+entity.reborn:slowking_shiny_ball.name=§9Shiny Slowking
+entity.reborn:qwilfish.name=§9Qwilfish
+entity.reborn:qwilfish_ball.name=§9Qwilfish
+entity.reborn:qwilfish_shiny.name=§9Shiny Qwilfish
+entity.reborn:qwilfish_shiny_ball.name=§9Shiny Qwilfish
+entity.reborn:qwilfish_wild.name=§9A Wild Qwilfish
+entity.reborn:qwilfish_shiny_wild.name=§9A Wild Qwilfish
+
+entity.reborn:kingdra.name=§9Kingdra
+entity.reborn:kingdra_ball.name=§9Kingdra
+entity.reborn:kingdra_shiny.name=§9Shiny Kingdra
+entity.reborn:kingdra_shiny_ball.name=§9Shiny Kingdra
+entity.reborn:remoraid.name=§9Remoraid
+entity.reborn:remoraid_ball.name=§9Remoraid
+entity.reborn:remoraid_shiny.name=§9Shiny Remoraid
+entity.reborn:remoraid_shiny_ball.name=§9Shiny Remoraid
+entity.reborn:octillery.name=§9Octillery
+entity.reborn:octillery_ball.name=§9Octillery
+entity.reborn:octillery_shiny.name=§9Shiny Octillery
+entity.reborn:octillery_shiny_ball.name=§9Shiny Octillery
+entity.reborn:mantyke.name=§9Mantyke
+entity.reborn:mantyke_ball.name=§9Mantyke
+entity.reborn:mantyke_shiny.name=§9Shiny Mantyke
+entity.reborn:mantyke_shiny_ball.name=§9Shiny Mantyke
+entity.reborn:mantyke_wild.name=§9A Wild Mantyke
+entity.reborn:mantyke_shiny_wild.name=§9A Wild Mantyke
+entity.reborn:mantine.name=§9Mantine
+entity.reborn:mantine_ball.name=§9Mantine
+entity.reborn:mantine_shiny.name=§9Shiny Mantine
+entity.reborn:mantine_shiny_ball.name=§9Shiny Mantine
+entity.reborn:corsola.name=§9Corsola
+entity.reborn:corsola_ball.name=§9Corsola
+entity.reborn:corsola_shiny.name=§9Shiny Corsola
+entity.reborn:corsola_shiny_ball.name=§9Shiny Corsola
+entity.reborn:corsola_wild.name=§9A Wild Corsola
+entity.reborn:corsola_shiny_wild.name=§9A Wild Corsola
+entity.reborn:suicune.name=§9Suicune
+entity.reborn:suicune_ball.name=§9Suicune
+entity.reborn:suicune_shiny.name=§9Shiny Suicune
+entity.reborn:suicune_shiny_ball.name=§9Shiny Suicune
+entity.reborn:suicuneboss.name=§4SUICUNE
+entity.reborn:pc.name=§4Storage PC
+
+entity.reborn:espeon.name=§5Espeon
+entity.reborn:espeon_ball.name=§5Espeon
+entity.reborn:espeon_shiny.name=§5Shiny Espeon
+entity.reborn:espeon_shiny_ball.name=§5Shiny Espeon
+entity.reborn:umbreon.name=§8Umbreon
+entity.reborn:umbreon_ball.name=§8Umbreon
+entity.reborn:umbreon_shiny.name=§8Shiny Umbreon
+entity.reborn:umbreon_shiny_ball.name=§8Shiny Umbreon
+
+entity.reborn:natu.name=§5Natu
+entity.reborn:natu_ball.name=§5Natu
+entity.reborn:natu_shiny.name=§5Shiny Natu
+entity.reborn:natu_shiny_ball.name=§5Shiny Natu
+entity.reborn:natu_wild.name=§5A Wild Natu
+entity.reborn:natu_shiny_wild.name=§5A Wild Natu
+entity.reborn:xatu.name=§5Xatu
+entity.reborn:xatu_ball.name=§5Xatu
+entity.reborn:xatu_shiny.name=§5Shiny Xatu
+entity.reborn:xatu_shiny_ball.name=§5Shiny Xatu
+entity.reborn:mareep.name=§6Mareep
+entity.reborn:mareep_ball.name=§6Mareep
+entity.reborn:mareep_wild.name=§6A Wild Mareep
+entity.reborn:mareep_shiny.name=§6Shiny Mareep
+entity.reborn:mareep_shiny_ball.name=§6Shiny Mareep
+entity.reborn:mareep_shiny_wild.name=§6A Wild Mareep
+entity.reborn:flaaffy.name=§6Flaaffy
+entity.reborn:flaaffy_ball.name=§6Flaaffy
+entity.reborn:flaaffy_shiny.name=§6Shiny Flaaffy
+entity.reborn:flaaffy_shiny_ball.name=§6Shiny Flaaffy
+entity.reborn:ampharos.name=§6Ampharos
+entity.reborn:ampharos_wild.name=§6Ampharos
+entity.reborn:ampharos_shiny.name=§6Shiny Ampharos
+entity.reborn:ampharos_shiny_wild.name=§6Shiny Ampharos
+entity.reborn:girafarig.name=§6Girafarig
+entity.reborn:girafarig_wild.name=§6A Wild Girafarig
+entity.reborn:girafarig_shiny_wild.name=§6A Wild Girafarig
+entity.reborn:girafarig_ball.name=§6Girafarig 
+entity.reborn:girafarig_shiny.name=§6Shiny Girafarig 
+entity.reborn:girafarig_shiny_ball.name=§6Shiny Girafarig
+entity.reborn:scizor.name=§aScizor
+entity.reborn:scizor_ball.name=§aScizor 
+entity.reborn:scizor_shiny.name=§aShiny Scizor 
+entity.reborn:scizor_shiny_ball.name=§aShiny Scizor
+
+entity.reborn:stantler.name=§8Stantler
+entity.reborn:stantler_wild.name=§8A Wild Stantler
+entity.reborn:stantler_shiny_wild.name=§8A Wild Stantler
+entity.reborn:stantler_ball.name=§8Stantler 
+entity.reborn:stantler_shiny.name=§8Shiny Stantler 
+entity.reborn:stantler_shiny_ball.name=§8Shiny Stantler
+
+
+
+
+
+
+##Actions
+
+
+
+action.interact.return=§4Use Pokéball
+action.hint.exit.reborn:meganium=Crouch to jump off Meganium
+action.hint.exit.reborn:meganium_shiny=Crouch to jump off Meganium
+action.hint.exit.reborn:feraligatr=Crouch to jump off Feraligatr
+action.hint.exit.reborn:feraligatr_shiny=Crouch to jump off Feraligatr
+action.hint.exit.reborn:ariados=Crouch to jump off Ariados
+action.hint.exit.reborn:ariados_shiny=Crouch to jump off Ariados
+action.hint.exit.reborn:houndoom=Crouch to jump off Houndoom
+action.hint.exit.reborn:houndoom_shiny=Crouch to jump off Houndoom
+action.hint.exit.reborn:donphan=Crouch to jump off Donphan
+action.hint.exit.reborn:donphan_shiny=Crouch to jump off Donphan
+action.hint.exit.reborn:mamoswine=Crouch to jump off Mamoswine
+action.hint.exit.reborn:mamoswine_shiny=Crouch to jump off Mamoswine
+action.hint.exit.reborn:vaporeon=Crouch to jump off Vaporeon
+action.hint.exit.reborn:vaporeon_shiny=Crouch to jump off Vaporeon
+action.hint.exit.reborn:jolteon=Crouch to jump off Jolteon
+action.hint.exit.reborn:jolteon_shiny=Crouch to jump off Jolteon
+action.hint.exit.reborn:flareon=Crouch to jump off Flareon
+action.hint.exit.reborn:flareon_shiny=Crouch to jump off Flareon
+action.hint.exit.reborn:espeon=Crouch to jump off Espeon
+action.hint.exit.reborn:espeon_shiny=Crouch to jump off Espeon
+action.hint.exit.reborn:umbreon=Crouch to jump off Umbreon
+action.hint.exit.reborn:umbreon_shiny=Crouch to jump off Umbreon
+action.hint.exit.reborn:leafeon=Crouch to jump off Leafeon
+action.hint.exit.reborn:leafeon_shiny=Crouch to jump off Leafeon
+action.hint.exit.reborn:glaceon=Crouch to jump off Glaceon
+action.hint.exit.reborn:glaceon_shiny=Crouch to jump off Glaceon
+action.hint.exit.reborn:mantine=Crouch to jump off Mantine
+action.hint.exit.reborn:mantine_shiny=Crouch to jump off Mantine
+
+
+##TRAINED
+
+entity.reborn:marill_trained.name=§9A Trained Marill
+entity.reborn:wooper_trained.name=§9A Trained Wooper
+entity.reborn:qwilfish_trained.name=§9A Trained Qwilfish
+entity.reborn:octillery_shiny_trained.name=§9A Trained Octillery
+entity.reborn:poliwrath_trained.name=§9A Trained Poliwrath
+entity.reborn:slowbro_shiny_trained.name=§9A Trained Slowbro
+entity.reborn:feraligatr_trained.name=§9A Trained Feraligatr
+entity.reborn:suicune_shiny_trained.name=§9A Trained Suicune
+entity.reborn:pidgey_trained.name=§9A Trained Pidgey
+entity.reborn:pidgeotto_trained.name=§9A Trained Pidgeotto
+entity.reborn:metapod_trained.name=§9A Trained Metapod
+entity.reborn:kakuna_trained.name=§9A Trained Kakuna
+entity.reborn:scyther_trained.name=§9A Trained Scyther
+entity.reborn:clefairy_trained.name=§9A Trained Clefairy
+entity.reborn:miltank_trained.name=§9A Trained Miltank
+entity.reborn:gastly_trained.name=§9A Trained Gastly
+entity.reborn:haunter_trained.name=§9A Trained Haunter
+entity.reborn:haunter2_trained.name=§9A Trained Haunter
+entity.reborn:gengar_trained.name=§9A Trained Gengar
+entity.reborn:primeape_trained.name=§9A Trained Primeape
+entity.reborn:poliwrath2_trained.name=§9A Trained Poliwrath
+entity.reborn:magnemite_trained.name=§9A Trained Magnemite
+entity.reborn:magnemite2_trained.name=§9A Trained Magnemite
+entity.reborn:steelix_trained.name=§9A Trained Steelix
+entity.reborn:seel_trained.name=§9A Trained Seel
+entity.reborn:dewgong_trained.name=§9A Trained Dewgong
+entity.reborn:piloswine_trained.name=§9A Trained Piloswine
+entity.reborn:dragonair_trained.name=§9A Trained Dragonair
+entity.reborn:dragonair2_trained.name=§9A Trained Dragonair
+entity.reborn:gyarados_trained.name=§9A Trained Gyarados
+entity.reborn:kingdra_trained.name=§9A Trained Kingdra
+
+
+
+
+##E4
+
+item.reborn:lorelei_round_two.name=Round Two Token §4(Lorelei)
+item.reborn:lorelei_round_three.name=Round Three Token §4(Lorelei)
+item.reborn:lorelei_round_four.name=Round Four Token §4(Lorelei)
+item.reborn:lorelei_round_five.name=Round Five Token §4(Lorelei)
+item.reborn:bruno_round_two.name=Round Two Token §4(Bruno)
+item.reborn:bruno_round_three.name=Round Three Token §4(Bruno)
+item.reborn:bruno_round_four.name=Round Four Token §4(Bruno)
+item.reborn:bruno_round_five.name=Round Five Token §4(Bruno)
+item.reborn:agatha_round_two.name=Round Two Token §4(Agatha)
+item.reborn:agatha_round_three.name=Round Three Token §4(Agatha)
+item.reborn:agatha_round_four.name=Round Four Token §4(Agatha)
+item.reborn:agatha_round_five.name=Round Five Token §4(Agatha)
+item.reborn:lance_round_two.name=Round Two Token §4(Lance)
+item.reborn:lance_round_three.name=Round Three Token §4(Lance)
+item.reborn:lance_round_four.name=Round Four Token §4(Lance)
+item.reborn:lance_round_five.name=Round Five Token §4(Lance)
+item.reborn:rivo_round_two.name=Round Two Token §4(Champion)
+item.reborn:rivo_round_three.name=Round Three Token §4(Champion)
+item.reborn:rivo_round_four.name=Round Four Token §4(Champion)
+item.reborn:rivo_round_five.name=Round Five Token §4(Champion)
+item.reborn:rivo_round_six.name=Round Six Token §4(Champion)
+
+
+item.reborn:bruno_badge.name=Bruno Badge
+item.reborn:agatha_badge.name=Agatha Badge
+item.reborn:lance_badge.name=Lance Badge
+item.reborn:champions_badge.name=Champions Badge
+item.reborn:oaks_letter.name=Prof. Oak's Letter
+item.reborn:winners_case.name=E4 Completed Badge Case
+
+
+
+
+
+
+

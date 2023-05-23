@@ -1,0 +1,58 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "unown",
+					"pivot": [-0.5, 14, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "unown",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-2, 17, 0], "size": [3, 1, 1], "uv": [8, 13]},
+						{"origin": [-1.25, 18, 0], "size": [1.5, 1, 1], "uv": [15, 8]},
+						{"origin": [-1, 19, 0], "size": [1, 1, 1], "uv": [15, 6]},
+						{"origin": [-3.25, 11.5, 0.5], "size": [5.5, 5.5, 0], "uv": [0, 0]},
+						{"origin": [-2, 10.7, 0], "size": [3, 1, 1], "pivot": [-2, 11, 0], "rotation": [0, 0, 1], "uv": [0, 13]},
+						{"origin": [1, 17, 0], "size": [3, 1, 1], "pivot": [1, 18, 0], "rotation": [0, 0, 45], "uv": [8, 11]},
+						{"origin": [-5, 17, 0], "size": [3, 1, 1], "pivot": [-2, 18, 0], "rotation": [0, 0, -45], "uv": [10, 2]},
+						{"origin": [-7.17157, 15.1, 0], "size": [3, 1, 1], "pivot": [-4, 16, 0], "rotation": [0, 0, -90], "uv": [10, 0]},
+						{"origin": [-0.1716, 15.9, 0], "size": [3, 1, 1], "pivot": [3, 16, 0], "rotation": [0, 0, -87.5], "uv": [8, 9]},
+						{"origin": [-0.1716, 12.9, 0], "size": [3, 1, 1], "pivot": [3, 13, 0], "rotation": [0, 0, -47.5], "uv": [8, 7]},
+						{"origin": [-7, 12.2, 0], "size": [3, 1, 1], "pivot": [-4, 13, 0], "rotation": [0, 0, -135], "uv": [8, 5]}
+					]
+				},
+				{
+					"name": "leg",
+					"parent": "unown",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 4.5, 0], "size": [1, 7, 1], "pivot": [-3, 11, 0], "rotation": [0, 0, 12.5], "uv": [4, 5]},
+						{"origin": [-2, 7.55, 0], "size": [1, 1, 1], "pivot": [-3, 11, 0], "rotation": [0, 0, 12.5], "uv": [6, 15]},
+						{"origin": [0, 7.8, 0], "size": [1, 1, 1], "pivot": [3, 11, 0], "rotation": [0, 0, -12.5], "uv": [15, 4]},
+						{"origin": [-1.9, 7.18874, 0], "size": [2.7, 1, 1], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "unown",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0.9763, 4.5, 0], "size": [1, 7, 1], "pivot": [2, 11, 0], "rotation": [0, 0, -12.5], "uv": [0, 5]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "minecraft:frenzy_berry"
+    },
+
+    
+    "tags": ["furnace", "smoker", "campfire"],
+    "input": "reborn:battle_berry",
+    "output": "reborn:frenzy_berry"
+  }
+}

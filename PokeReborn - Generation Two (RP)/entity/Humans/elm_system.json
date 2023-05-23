@@ -1,0 +1,29 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"reborn:elm_system",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/humans/professor_elm"
+         },
+         "geometry":{
+            "default":"geometry.shop2"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "reborn_pokemon_controller":"controller.animation.reborn_pokemon"
+         },
+         "scripts":{
+            "animate":[
+               "reborn_pokemon_controller"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

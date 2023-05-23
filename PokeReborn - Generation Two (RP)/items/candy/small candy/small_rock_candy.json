@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:small_rock_candy",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "small_rock_candy"
+    }
+  }
+}

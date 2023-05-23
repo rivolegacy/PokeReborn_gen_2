@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:croconaw_fainted",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "croconaw_fainted"
+    }
+  }
+}

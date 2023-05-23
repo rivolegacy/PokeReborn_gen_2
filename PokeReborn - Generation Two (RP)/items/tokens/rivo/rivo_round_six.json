@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:rivo_round_six",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "round_token"
+    }
+  }
+}

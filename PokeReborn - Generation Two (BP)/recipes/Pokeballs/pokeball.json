@@ -1,0 +1,31 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:pokeball"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " # ",
+         "#A#",
+         " B "
+      ],
+      "key":{
+         "#":{
+            "item":"reborn:red_apricorn"
+         },
+         "A":{
+            "item":"minecraft:iron_nugget"
+         },
+         "B":{
+            "item":"reborn:white_apricorn"
+         }
+      },
+      "result":{
+         "item":"reborn:pokeball",
+         "count":1
+      }
+   }
+}

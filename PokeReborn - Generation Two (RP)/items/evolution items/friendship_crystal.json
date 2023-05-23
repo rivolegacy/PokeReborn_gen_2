@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:friendship_crystal",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "friendship_crystal"
+    }
+  }
+}

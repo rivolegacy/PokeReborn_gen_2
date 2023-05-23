@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:forth_round_token",
+      "category": "Equipment"
+    },
+    
+    "components": {
+      "minecraft:icon": "forth_round_token"
+    }
+  }
+}

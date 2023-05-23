@@ -1,0 +1,621 @@
+{
+   "poke.ball.catch":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ball_catch"
+      ]
+   },
+   "poke.ball.caught":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ball_caught"
+      ]
+   },
+   "poke.chill.chikorita":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/chikorita"
+      ]
+   },
+   "poke.chill.bayleef":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/bayleef"
+      ]
+   },
+   "poke.chill.meganium":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/meganium"
+      ]
+   },
+   "poke.chill.cyndaquil":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/cyndaquil"
+      ]
+   },
+   "poke.chill.quilava":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/quilava"
+      ]
+   },
+   "poke.chill.typhlosion":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/typhlosion"
+      ]
+   },
+   "poke.chill.totodile":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/totodile"
+      ]
+   },
+   "poke.chill.croconaw":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/croconaw"
+      ]
+   },
+   "poke.chill.feraligatr":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/feraligatr"
+      ]
+   },
+   "poke.chill.sentret":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/sentret"
+      ]
+   },
+   "poke.chill.furret":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/furret"
+      ]
+   },
+ "poke.chill.hoothoot":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/hoothoot"
+      ]
+   },
+ "poke.chill.noctowl":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/noctowl"
+      ]
+   },
+
+ "poke.chill.swinub":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/swinub"
+      ]
+   },
+ "poke.chill.piloswine":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/piloswine"
+      ]
+   },
+
+ "poke.chill.togepi":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/togepi"
+      ]
+   },
+"poke.chill.togetic":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/togetic"
+      ]
+   },
+
+"poke.chill.ledyba":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ledyba"
+      ]
+   },
+"poke.chill.ledian":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ledian"
+      ]
+   },
+"poke.chill.spinarak":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/spinarak"
+      ]
+   },
+"poke.chill.ariados":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ariados"
+      ]
+   },
+
+"poke.chill.crobat":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/crobat"
+      ]
+   },
+"poke.chill.chinchou":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/chinchou"
+      ]
+   },
+"poke.chill.lanturn":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/lanturn"
+      ]
+   },
+"poke.chill.pichu":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/pichu"
+      ]
+   },
+
+"poke.chill.cleffa":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/cleffa"
+      ]
+   },
+
+"poke.chill.igglybuff":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/igglybuff"
+      ]
+   },
+
+"poke.chill.miltank":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/miltank"
+      ]
+   },
+"poke.chill.houndour":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/houndour"
+      ]
+   },
+"poke.chill.houndoom":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/houndoom"
+      ]
+   },
+"poke.chill.phanpy":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/phanpy"
+      ]
+   },
+"poke.chill.donphan":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/donphan"
+      ]
+   },
+
+"poke.chill.marill":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/marill"
+      ]
+   },
+"poke.chill.azumarill":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/azumarill"
+      ]
+   },
+
+"poke.chill.politoed":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/politoed"
+      ]
+   },
+"poke.chill.wooper":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/wooper"
+      ]
+   },
+"poke.chill.quagsire":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/quagsire"
+      ]
+   },
+
+
+"poke.chill.slowking":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/slowking"
+      ]
+   },
+"poke.chill.qwilfish":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/qwilfish"
+      ]
+   },
+
+"poke.chill.kingdra":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/kingdra"
+      ]
+   },
+"poke.chill.remoraid":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/remoraid"
+      ]
+   },
+"poke.chill.octillery":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/octillery"
+      ]
+   },
+"poke.chill.mantyke":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/mantyke"
+      ]
+   },
+"poke.chill.mantine":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/mantine"
+      ]
+   },
+"poke.chill.corsola":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/corsola"
+      ]
+   },
+
+"poke.chill.espeon":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/espeon"
+      ]
+   },
+"poke.chill.umbreon":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/umbreon"
+      ]
+   },
+"poke.chill.leafeon":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/leafeon"
+      ]
+   },
+"poke.chill.glaceon":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/glaceon"
+      ]
+   },
+"poke.chill.natu":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/natu"
+      ]
+   },
+"poke.chill.xatu":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/xatu"
+      ]
+   },
+"poke.chill.mareep":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/mareep"
+      ]
+   },
+"poke.chill.flaaffy":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/flaaffy"
+      ]
+   },
+"poke.chill.ampharos":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ampharos"
+      ]
+   },
+
+"poke.chill.bellossom":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/bellossom"
+      ]
+   },
+"poke.chill.bonsly":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/bonsly"
+      ]
+   },
+"poke.chill.sudowoodo":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/sudowoodo"
+      ]
+   },
+"poke.chill.hoppip":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/hoppip"
+      ]
+   },
+"poke.chill.skiploom":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/skiploom"
+      ]
+   },
+"poke.chill.jumpluff":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/jumpluff"
+      ]
+   },
+"poke.chill.stantler":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/stantler"
+      ]
+   },
+"poke.chill.girafarig":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/girafarig"
+      ]
+   },
+
+"poke.chill.scizor":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/scizor"
+      ]
+   },
+"poke.chill.pineco":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/pineco"
+      ]
+   },
+"poke.chill.forretress":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/forretress"
+      ]
+   },
+"poke.chill.teddiursa":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/teddiursa"
+      ]
+   },
+"poke.chill.ursaring":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/ursaring"
+      ]
+   },
+"poke.chill.aipom":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/aipom"
+      ]
+   },
+
+"poke.chill.murkrow":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/murkrow"
+      ]
+   },
+
+"poke.chill.gligar":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/gligar"
+      ]
+   },
+
+"poke.chill.smeargle":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/smeargle"
+      ]
+   },
+"poke.stop.used":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/pokestop"
+      ]
+   },
+"poke.heal.used":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/healing_machine"
+      ]
+   },
+"poke.chill.suicune":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/suicune"
+      ]
+   },
+"poke.chill.lugia":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/lugia"
+      ]
+   },
+
+"poke.chill.delibird":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/delibird"
+      ]
+   },
+
+"poke.chill.larvitar":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/larvitar"
+      ]
+   },
+"poke.chill.pupitar":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/pupitar"
+      ]
+   },
+"poke.chill.tyranitar":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/tyranitar"
+      ]
+   },
+"poke.chill.magby":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/magby"
+      ]
+   },
+
+"poke.chill.slugma":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/slugma"
+      ]
+   },
+"poke.chill.magcargo":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/magcargo"
+      ]
+   },
+
+"poke.chill.steelix":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/steelix"
+      ]
+   },
+
+"poke.chill.porygon2":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/porygon2"
+      ]
+   },
+
+"poke.chill.shuckle":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/shuckle"
+      ]
+   },
+"poke.chill.skarmory":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/skarmory"
+      ]
+   },
+"poke.chill.sneasel":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/sneasel"
+      ]
+   },
+
+"poke.chill.hooh":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/hooh"
+      ]
+   },
+"poke.chill.entei":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/entei"
+      ]
+   },
+"poke.chill.raikou":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/raikou"
+      ]
+   },
+"poke.chill.celebi":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/celebi"
+      ]
+   },
+"poke.mech.dna":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/dna"
+      ]
+   },
+"poke.chill.smoochum":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/smoochum"
+      ]
+   },
+"poke.chill.tyrogue":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/tyrogue"
+      ]
+   },
+"poke.chill.hitmontop":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/hitmontop"
+      ]
+   },
+"poke.chill.heracross":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/heracross"
+      ]
+   },
+"poke.chill.elekid":{
+      "category":"neutral",
+      "sounds":[
+         "sounds/pokemon/elekid"
+      ]
+   }
+}

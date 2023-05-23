@@ -1,0 +1,33 @@
+{
+    "format_version": "1.16",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "reborn:dna_machine"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " W ",
+            "S#S",
+            "S#S"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:iron_ingot"
+            },
+            "#": {
+               "item": "minecraft:redstone"
+               
+            },
+           "W": {
+                "item": "minecraft:glass_pane"
+               
+            }
+        },
+        "result": {
+            "item": "reborn:dna_machine_spawn_egg",
+            "count": 1
+        }
+    }
+}

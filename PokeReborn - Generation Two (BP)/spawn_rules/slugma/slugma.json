@@ -1,0 +1,33 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"reborn:slugma",
+         "population_control":"monster"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_underground":{
+               
+            },
+            "minecraft:weight":{
+               "default":60
+            },
+            "minecraft:permute_type":[
+               {
+                  "weight":9500
+               },
+               {
+                  "weight":2,
+                  "entity_type":"reborn:slugma_shiny"
+               }
+            ],
+            "minecraft:biome_filter":{
+               "test":"has_biome_tag",
+               "operator":"==",
+               "value":"nether"
+            }
+         }
+      ]
+   }
+}

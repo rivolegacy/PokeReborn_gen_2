@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "reborn:oaks_letter",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "oaks_letter"
+    }
+  }
+}

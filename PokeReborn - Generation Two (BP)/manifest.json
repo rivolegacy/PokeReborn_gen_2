@@ -1,0 +1,30 @@
+{
+   "format_version":2,
+   "header":{
+      "description":"§6By Mr_Legacy",
+      "name":"§bPokéReborn - Generation Two",
+      "uuid":"7b86db01-b168-4cda-9471-bcca9a9e3c72",
+      "version":[
+         1,
+         0,
+         0
+      ],
+      "min_engine_version":[
+         1,
+         16,
+         0
+      ]
+   },
+   "modules":[
+      {
+         "description":"_",
+         "type":"data",
+         "uuid":"786e1b4e-b0fb-4bb6-938a-6b34d4a32698",
+         "version":[
+            1,
+            0,
+            0
+         ]
+      }
+   ]
+}

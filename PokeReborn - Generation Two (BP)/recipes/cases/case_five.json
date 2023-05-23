@@ -1,0 +1,30 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"reborn:case_five"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " S ",
+         " # ",
+         "   "
+      ],
+      "key":{
+         "S":{
+              "item": "reborn:storm_badge"
+
+         },
+         "#":{
+            "item":"reborn:case_four"
+           
+         }
+      },
+      "result":{
+         "item":"reborn:case_five",
+         "count":1
+      }
+   }
+}
